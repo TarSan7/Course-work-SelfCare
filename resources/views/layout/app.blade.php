@@ -51,15 +51,36 @@
                         </li>
                     </ul>
                 </div>
-               
+
                 <div class="col-1"></div>
-                 <div class="col-11 main-content">
+                <div class="col-11 main-content">
                     <p class="slogan-title">
                         Хочеш обрати шлях здоров’я, змінити світогляд, підтримувати тіло і дух у відмінній формі?
                     </p>
                 </div>
             </div>
     </header>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-row">
+                <div class="col-3 ">
+                    <img class="logo-ftr" src="../resources/img/logo-ftr.svg" alt="logo: SelfCare">
+                </div>
+                <div class="col-6 netw">
+                    <img onclick="document.location=''" src="../resources/img/instagram.svg" alt="facebook" class="instagram">
+                    <img onclick="document.location=''" src="../resources/img/facebook.svg" alt="instagram" class="facebook">
+                    <img onclick="document.location=''" src="../resources/img/youtube.svg" alt="youtube" class="youtube">
+                    <img onclick="document.location=''" src="../resources/img/twitter.svg" alt="youtube" class="twitter">
+                </div>
+                <div class="col-3 footer-number">
+                    <p class="number">+38-(099)-88-77-654</p>
+                </div>
+            </div>
+            
+            <p class="footer-phrase">Знайдіть своє джерело спокою та натхнення разом з SelfCare</p>
+        </div>
+    </footer>
 </body>
 
 </html>

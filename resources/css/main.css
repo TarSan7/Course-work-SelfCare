@@ -80,10 +80,12 @@ body{
 .menu-btn > span::before {
     content: '';
     top: -10px;
+    transition: 300ms;
 }
 .menu-btn > span::after {
     content: '';
     top: 10px;
+    transition: 300ms;
 }
 .menu-burger {
     display: flex;
@@ -98,33 +100,93 @@ body{
     justify-content: space-between;
     background-color: rgb(255, 255, 255, 0.9);
 }
+ul{
+    list-style: none;
+}
 .scroll {
     display: block;
     font-family: 'Montserrat', serif;
     font-weight: 400;
     font-size: 18px;
-    text-decoration: none;
     color:black;
+    text-decoration: underline 0.15em rgb(0, 128, 0, 0);
+}
+.scroll:hover {
+    text-decoration: underline 0.15em rgb(0, 128, 0, 1);
+    color: black;
+    transition: 500ms;
 }
 #menu-toggle:checked ~ .menu-btn > span {
     transform: rotate(45deg);
+   transition: 300ms;
 }
 #menu-toggle:checked ~ .menu-btn > span::before {
     top: 0;
     transform: rotate(0);
     background-color: #F6FBFF;
+   transition: 300ms;
 }
 #menu-toggle:checked ~ .menu-btn > span::after {
    top: 0;
    background-color: #F6FBFF;
    transform: rotate(90deg);
+   transition: 300ms;
 }
 #menu-toggle:checked ~ .menu-burger {
-   visibility: visible;
-   right: 0;
+    visibility: visible;
+    right: 0;
 }
 
 .main-content{
     z-index: 1;
     position: relative;
+}
+
+
+
+.footer{
+    display: flex;
+    height: 240px;
+    padding-top: 65px;
+}
+.footer-row{
+    align-items: center;
+}
+.netw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram{
+    width: 60px;
+    height: 60px;
+}
+.youtube{
+    margin-left: 40px;
+    width: 60px;
+    height: 60px;
+}
+.facebook, .twitter{
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+}
+.footer-number{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.number{
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+.footer-phrase{
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
 }
