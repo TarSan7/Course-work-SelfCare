@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background: url('../img/mainScreenLanding.png') no-repeat center;
+    height: 774px;
+    background-size: auto;
+}
+
+.container{
+    padding: 0;
+}
+
+.head-row-first{
+    padding: 40px 0 0 0 ;
+    align-items: center;
+}
+
+.logo{
+    width: 290px;
+    height: 50px;
+    padding: 0;
+}
+
+.phone-basket{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+}
+
+.phone{
+    width: 35px;
+    height: 35px;
+}
+
+.basket{
+    margin-left: 35px;
+    width: 45px;
+    height: 45px;
+}
+
+.burger{
+    margin-top: 200px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+#menu-toggle{
+    opacity: 0;
+}
+.menu-btn {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+    display: block;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 2.1px;
+    background-color:white;
+}
+.menu-btn > span::before {
+    content: '';
+    top: -10px;
+}
+.menu-btn > span::after {
+    content: '';
+    top: 10px;
+}
+.menu-burger {
+    display: flex;
+    visibility: hidden;
+    top: 20px;
+    width: 80%;
+    height: 150px;
+    margin-left: 70px;
+    padding: 0 3%;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+.scroll {
+    display: block;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+}
+#menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+}
+#menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: #F6FBFF;
+}
+#menu-toggle:checked ~ .menu-btn > span::after {
+   top: 0;
+   background-color: #F6FBFF;
+   transform: rotate(90deg);
+}
+#menu-toggle:checked ~ .menu-burger {
+   visibility: visible;
+   right: 0;
+}
+
+.main-content{
+    z-index: 1;
+    position: relative;
+}
