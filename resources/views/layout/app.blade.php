@@ -52,14 +52,7 @@
                     </ul>
                 </div>
 
-                <div class="col-1"></div>
-                <div class="col-11 main-content">
-                    <p class="slogan-title">
-                        Хочеш обрати шлях здоров’я, змінити світогляд, підтримувати тіло і дух у відмінній формі?
-                    </p>
-                </div>
-            </div>
-    </header>
+                @yield('content')
 
     <footer class="footer">
         <div class="container">
