@@ -137,8 +137,8 @@ ul{
     right: 0;
 }
 
-.main-content{
-    z-index: 1;
+.main-content{  /*єто клас контента которій будет лежать под менюшкой*/
+    z-index: 1; /*остальные стили дописывать в свой файл*/
     position: relative;
 }
 
