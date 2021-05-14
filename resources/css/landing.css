@@ -1,8 +1,197 @@
 
 /*стили для лендинга*/
+.main-content{
+    padding: 0;
+}
 .slogan-title{
-    font-family: Open Sans;
+    font-family: 'Open Sans', serif;
     font-weight: 600;
     font-size: 40px;
+    color: white;
+    margin-top: 80px;
+    max-width: 743px;
+}
+.slogan{
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: white;
+    margin-top: 25px;
+    max-width: 490px;
+    margin-bottom: 0;
+}
 
+.button{
+    margin-top: 50px;
+    padding: 19px 23px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(255, 255, 255, 0);
+    border-radius: 35px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+.title{
+    margin-top: 110px;
+    text-align: center;
+	background-repeat: no-repeat;
+	background-position: center bottom 1px;
+	background-size: 500px 1px;
+	background-image: linear-gradient(to right, white, black, white);
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-top: 50px;
+    max-width: 1095px;
+    text-align: center;
+    margin-right: 0;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.span1, .span2, .span3{
+    font-weight: bold;
+    font-size: 26px;
+}
+.span1{
+    color: #00CC69;
+}
+.span2{
+    color: #E58776;
+}
+.span3{
+    color: #0AC6FF;
+}
+.but-row{
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    margin-top: 50px;
+    padding: 19px 23px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(133, 255, 196, 0);
+    border-radius: 35px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00CC69;
+    color: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button1:hover{
+    background: rgb(133, 255, 196, 0.5);
+}
+.title1{
+    margin-top: 110px;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+    font-size: 44px;
+}
+.h2parts{
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.wrap-part{
+    padding: 0 20px;
+}
+.imgwrap{
+    display: flex;
+    justify-content: center;
+}
+.pointer{
+    margin-bottom: 25px;
+}
+.part-text{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.section3{
+    background: url('../img/coursesOfHealth.png') no-repeat right bottom;
+}
+#left-text{
+    text-align: left;
+    max-width: 870px;
+    margin-top: 80px;
+}
+.span4{
+    font-weight: 500;
+}
+.button2{
+    margin-top: 50px;
+    padding: 25px 70px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(133, 226, 255, 0);
+    border-radius: 35px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0AC6FF;
+    color: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button2:hover{
+    background: rgb(133, 226, 255, 0.5);
+}
+.instruct-row{
+    margin-top: 75px;
+}
+.span5{
+    font-weight: 600;
+}
+.instruct{
+    min-width: 350px;
+}
+
+.part-text1, .part-text2{
+    text-align: center;
+    align-items: bottom;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.part-text1{
+    margin-top: 30px;
+}
+.part-text2{
+    margin-bottom: 40px;
+}
+
+.section5{
+    background: linear-gradient(135deg, rgba(133,226,255,0.5) 0%, rgba(133,255,196,0.5) 100%);
+    margin-top: 110px;
+}
+#whywe{
+    padding-top: 50px;
+}
+.wrap-part1{
+    justify-content: flex-end;
+}
+#whymarg{
+    padding-top: 45px;
+    padding-bottom: 65px;
 }

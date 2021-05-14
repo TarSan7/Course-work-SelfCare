@@ -10,7 +10,7 @@ body{
 .main-header{
     background: url('../img/mainScreenLanding.png') no-repeat center;
     height: 774px;
-    background-size: auto;
+    background-size:cover;
 }
 
 .container{
@@ -53,6 +53,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    max-width: 90%;
     padding: 0;
 }
 #menu-toggle{
