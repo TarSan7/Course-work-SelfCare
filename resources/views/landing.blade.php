@@ -194,4 +194,182 @@
     </div>
 </section>
 
+
+<section class="section6">
+    <h1 class="title">Відгуки наших учнів</h1>
+    <div id="all">
+        <input checked type="radio" name="respond" id="desktop">
+        <article id="slider">
+            <div class="incenter">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+
+                <div id="controls">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                    <label for="switch5"></label>
+                </div>
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="image">
+                            <article>
+                                <div class="comment">
+                                    <div class="comment-row">
+                                        <div class="photo-name">
+                                            <img src="../resources/img/coment1.png" alt="" class="comment-photo">
+                                            <p class="comment-name">Тараненко Наталія</p>
+                                        </div>
+                                        <div class="stars">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                        </div>
+                                    </div>
+                                    <p class="text">Йога - спосіб відпочити для людини ХХІ століття.
+                                        Чим мені подобається йога? Тим, що ви можете відчувати своє тіло,
+                                        радіти, коли стаєте гнучкими і здоровими, відчуваєте легкість.
+                                        Починати потрібно обов'язково з інструктором. Види і рівні йоги вам
+                                        також підбере інструктор. Заняття тривають, як правило, від 40 хвилин
+                                        до години. Якщо займатися регулярно і слухати інструктора перші результати
+                                        не змусять себе довго чекати.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="comment">
+                                    <div class="comment-row">
+                                        <div class="photo-name">
+                                            <img src="../resources/img/coment2.png" alt="" class="comment-photo">
+                                            <p class="comment-name">Терещенко Вікторія</p>
+                                        </div>
+                                        <div class="stars">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                        </div>
+                                    </div>
+                                    <p class="text">Курс медитації неперевершений! Я в захваті від колективу,
+                                        в який мені пощастило потрапити. Для мене час пролетів дуже швидко.
+                                        Хотілося ще, ще і ще. Це було справжнім святом для духу, душі і тіла.
+                                        Я ніколи в житті ще не була серед такої кількості доброзичливих людей.
+                                        Хочеться також відзначити організацію, все було на вищому рівні. Результат
+                                        від регулярної медитації просто чудовий. Таке відчуття, що все потихеньку
+                                        стає на свої місця, стаєш терплячішим і добрішим. І набагато щасливішим!
+                                        Хочеться порекомендувати всім, хто хоче, але сумнівається. </p>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="comment">
+                                    <div class="comment-row">
+                                        <div class="photo-name">
+                                            <img src="../resources/img/coment3.png" alt="" class="comment-photo">
+                                            <p class="comment-name">Кропив’янський Володимир</p>
+                                        </div>
+                                        <div class="stars">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                        </div>
+                                    </div>
+                                    <p class="text">Дуже сподобалося, що можна обрати сладові курсу самостійно, вибрав медитацію
+                                        та йогу, всім раджу. Відвідував заняття як в залі так і на природі, будинок в лісі затишний
+                                        і комфортний. Тренери – професіонали, уважні і вічливі, завжди дадуть корисну пораду. Йога -
+                                        це не тільки фізичні вправи, але і робота над заспокоєнням і концентрацією розуму, дихальна
+                                        практика. Заняття не пройшли дарма, значно покращилися фізичний і духовний стани, навчився
+                                        боротися зі стресом та перенавантаженням. Раджу такий курс всім, кого втомила буденність і
+                                        рутина.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="comment">
+                                    <div class="comment-row">
+                                        <div class="photo-name">
+                                            <img src="../resources/img/coment4.png" alt="" class="comment-photo">
+                                            <p class="comment-name">Стефаник Катерина</p>
+                                        </div>
+                                        <div class="stars">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                        </div>
+                                    </div>
+                                    <p class="text">Курс по здоровому харчуванню просто відмінний. Я пошкодувала, що не взяла відразу
+                                        комплексну програму. Коли отримала свою програму була в захваті! Вона була на стільки зрозуміла,
+                                        структурована і доступна, що радості моєї не було меж. Перший тиждень був складним для мене, але
+                                        побачивши перші результати про булки і солодощі я забула. Далі від курсу отримала лише
+                                        задоволення, а головне досягла бажаного результату! Заняття не довгі і не нудні, всім раджу!</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="comment">
+                                    <div class="comment-row">
+                                        <div class="photo-name">
+                                            <img src="../resources/img/coment5.png" alt="" class="comment-photo">
+                                            <p class="comment-name">Рибак Всеволод</p>
+                                        </div>
+                                        <div class="stars">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                            <img src="../resources/img/star.png" alt="" class="star">
+                                        </div>
+                                    </div>
+                                    <p class="text">Без вагань обрав комплексний курс із йоги, медитації та правильного харчування.
+                                        Хоч вже мав досвід занять йогою, заняття були актуальними, бо у тренерів індивідуальний підхід
+                                        до кожного. Заняття розподілені рівномірно, за бажанням можна коригувати графік, тому курс
+                                        легко поєднувати з роботою. Після напруженого дня медитація допомагає відпустити думки і
+                                        розслабитися, а йога надзвичайно корисна, якщо у вас сидяча робота. Заняття з правильного
+                                        харчування – це не лише лекції, а і практика. Впевнено рекомендую цей курс.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+                <label for="switch4"></label>
+                <label for="switch5"></label>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="section7">
+    <div class="container">
+        <div class="form-title">
+            <h1 class="title2">З’явилися питання? Зв’яжіться з нами заповнивши форму.</h1>
+        </div>
+        <form action="" class="form" method="POST">
+            <div class="row form-row">
+                <div class="col-6 name-mail">
+                    <input type="text" required class="area" name="user-name" placeholder="Ваше ім'я...">
+                    <input type="email" required class="area" name="user-email" placeholder="Електронна пошта...">
+                </div>
+                <div class="col-6">
+                    <textarea type="comment" placeholder="Ваше питання..." required class="area" id = "question" name="question"></textarea>
+                </div>
+                <div class="col-12 form-button">
+                    <button type="submit" class="button3">Надіслати</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+</section>
 @endsection
