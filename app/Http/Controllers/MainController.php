@@ -9,4 +9,10 @@ class MainController extends Controller
     public function firstPage(){
         return view('landing');
     }
+
+    public function meditationPage(){
+        return view('meditation');
+    }
 }
+
+

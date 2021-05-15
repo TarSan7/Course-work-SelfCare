@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background: url('../img/mainScreenMeditation.png') no-repeat center;
+    height: 777px;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+color: #000000;
+}
+
+p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 130%;
+color: #000000;
+
+}
+
+.offer{
+    float: bottom;
+    margin:5.65% auto 0;
+    background-color:  #FFFFFF;
+    width: 96%;
+    padding: 5% 10% 13.5%;
+}
+
+.offer h1{
+    margin-bottom: 4.7%;
+}
+
+h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+}
+
+.firstRow{
+    display:flex;
+}
+
+.typesOfYoga h1{
+    margin-top: 8%;
+    margin-bottom: 6.5%;
+}
+
+.typesOfYoga img{
+    width: 100%;
+}
+
+.typesOfYoga p{
+    margin: 0;
+    font-size: 20.5px;
+}
+
+.typesOfYoga .row{
+    margin-bottom: 8.8%;
+}
+
+.punct{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 26px;
+    width: 74.4%;
+    margin: 0 auto 3.5%;
+}
+
+.punct p{
+    width: 90%;
+    margin-bottom: 0;
+}
+
+.whatWillYouGet img{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.whatWillYouGet h1{
+    margin-bottom: 5.26%;
+}
+
+.whatWillYouGet{
+    padding-bottom: 8.3%;
+}
+
+.punct-last{
+    margin-bottom: 5.26%;
+}
+
+button{
+    display: block;
+    width: 30%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border: 5px solid #0AC6FF;
+    box-sizing: border-box;
+    border-radius: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
+}
+
+.boldText{
+    font-weight: 600;
+}
+
+.row{
+    justify-content: space-between;
+}
+
+.instructors p{
+    width: 100%;
+    font-size: 21px;
+}
+
+#moreDetailed1, #moreDetailed2{
+    opacity:0;
+    transition: all 1s linear;
+}
+
+#buttonDetailed1, #buttonDetailed2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #949494;
+    border: none;
+    background-color: transparent;
+    background-image: url(/img/detailedButtonIcon.png);
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    width: 16%;
+    height: 26%;
+    display: flex;
+    align-items:top;
+    justify-content: center;
+}
+
+.firstInstructor, .secondInstructor{
+    background-image: url(/img/BackgroundInsrt2.png);
+    height: 380px;
+}
+
+.firstInstructor{
+    margin-bottom: 4.5%;
+}
+
+.mainInfoAboutInstr{
+    margin-bottom: 5%;
+}
+
+.instructors h1{
+    margin-bottom: 4.5%;
+}
+
+
