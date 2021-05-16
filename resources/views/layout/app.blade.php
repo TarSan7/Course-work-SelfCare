@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../public/css/main.css">
     <link rel="stylesheet" href="@yield('style')">
     <!--Connect with css file-->
     <title> @yield('title') </title>
@@ -20,12 +20,12 @@
         <div class="container">
             <div class="row head-row-first">
                 <div class="logo col-3">
-                    <img class="logo" src="../resources/img/logo.svg" alt="logo: SelfCare">
+                    <img class="logo" src="../public/img/logo.svg" alt="logo: SelfCare">
                 </div>
                 <div class="col-5"></div>
                 <div class="phone-basket col-4">
-                    <img class="phone" src="../resources/img/phone.svg" alt="phone">
-                    <img class="basket" src="../resources/img/basket.svg" alt="basket">
+                    <img class="phone" src="../public/img/phone.svg" alt="phone">
+                    <img class="basket" src="../public/img/basket.svg" alt="basket">
                 </div>
             </div>
             <div class="row head-row-second">
@@ -59,13 +59,13 @@
                     <div class="container">
                         <div class="row footer-row">
                             <div class="col-3 ">
-                                <img class="logo-ftr" src="../resources/img/logo-ftr.svg" alt="logo: SelfCare">
+                                <img class="logo-ftr" src="../public/img/logo-ftr.svg" alt="logo: SelfCare">
                             </div>
                             <div class="col-6 netw">
-                                <img onclick="document.location=''" src="../resources/img/instagram.svg" alt="facebook" class="instagram">
-                                <img onclick="document.location=''" src="../resources/img/facebook.svg" alt="instagram" class="facebook">
-                                <img onclick="document.location=''" src="../resources/img/youtube.svg" alt="youtube" class="youtube">
-                                <img onclick="document.location=''" src="../resources/img/twitter.svg" alt="youtube" class="twitter">
+                                <img onclick="document.location=''" src="../public/img/instagram.svg" alt="facebook" class="instagram">
+                                <img onclick="document.location=''" src="../public/img/facebook.svg" alt="instagram" class="facebook">
+                                <img onclick="document.location=''" src="../public/img/youtube.svg" alt="youtube" class="youtube">
+                                <img onclick="document.location=''" src="../public/img/twitter.svg" alt="youtube" class="twitter">
                             </div>
                             <div class="col-3 footer-number">
                                 <p class="number">+38-(099)-88-77-654</p>

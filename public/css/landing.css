@@ -6,7 +6,7 @@
 .slogan-title{
     font-family: 'Open Sans', serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 36px;
     color: white;
     margin-top: 80px;
     max-width: 743px;
@@ -14,7 +14,7 @@
 .slogan{
     font-family: 'Montserrat', serif;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 22px;
     color: white;
     margin-top: 25px;
     max-width: 490px;
@@ -26,7 +26,7 @@
     padding: 19px 23px;
     font-family: 'Montserrat', serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     background: rgb(255, 255, 255, 0);
     border-radius: 35px;
     border-width: 5px;
@@ -39,7 +39,7 @@
     background: rgba(255, 255, 255, 0.5);
 }
 .title{
-    margin-top: 110px;
+    margin-top: 100px;
     text-align: center;
 	background-repeat: no-repeat;
 	background-position: center bottom 1px;
@@ -47,7 +47,7 @@
 	background-image: linear-gradient(to right, white, black, white);
     font-family: 'Montserrat', serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 36px;
     padding-bottom: 10px;
 }
 .wrapper{
@@ -61,12 +61,12 @@
     margin-right: 0;
     font-family: 'Montserrat', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .span1, .span2, .span3{
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
 }
 .span1{
     color: #00CC69;
@@ -86,7 +86,7 @@
     padding: 19px 23px;
     font-family: 'Montserrat', serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     background: rgb(133, 255, 196, 0);
     border-radius: 35px;
     border-width: 5px;
@@ -99,17 +99,17 @@
     background: rgb(133, 255, 196, 0.5);
 }
 .title1{
-    margin-top: 110px;
+    margin-top: 100px;
     text-align: center;
     font-family: 'Montserrat', serif;
     font-weight: 600;
-    font-size: 44px;
+    font-size: 40px;
 }
 .h2parts{
     text-align: center;
     font-family: 'Montserrat', serif;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 34px;
     margin-bottom: 25px;
 }
 .wrap-part{
@@ -127,7 +127,7 @@
     text-align: center;
     font-family: 'Montserrat', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
 }
 .section3{
     background: url('../img/coursesOfHealth.png') no-repeat right bottom;
@@ -145,7 +145,7 @@
     padding: 25px 70px;
     font-family: 'Montserrat', serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     background: rgb(133, 226, 255, 0);
     border-radius: 35px;
     border-width: 5px;
@@ -172,7 +172,7 @@
     align-items: bottom;
     font-family: 'Montserrat', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
 }
 .part-text1{
     margin-top: 30px;
@@ -183,7 +183,7 @@
 
 .section5{
     background: linear-gradient(135deg, rgba(133,226,255,0.5) 0%, rgba(133,255,196,0.5) 100%);
-    margin-top: 110px;
+    margin-top: 100px;
 }
 #whywe{
     padding-top: 50px;
@@ -193,10 +193,10 @@
 }
 #whymarg{
     padding-top: 45px;
-    padding-bottom: 65px;
+    padding-bottom: 55px;
 }
 #all{
-    margin-top: 75px;
+    margin-top: 50px;
 }
 #slider{
     position: relative;
@@ -229,7 +229,7 @@
 .comment{
     width: 99.6%;
     height: 99.6%;
-    padding: 35px 110px 85px 110px;
+    padding: 35px 70px 50px 70px;
     background: rgba(245, 245, 245, 0.9);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
     border-radius: 30px;
@@ -237,6 +237,11 @@
 }
 
 .comment .text{
+    margin-top: 50px;
+    margin-right: 0;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 18px;
     text-align: left;
 }
 .comment-row{
@@ -252,7 +257,7 @@
     margin: 0 20px;
     font-family: 'Montserrat', serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
 }
 .stars{
     justify-content: flex-end;
@@ -361,7 +366,7 @@ label, a{
     text-align: center;
     font-family: 'Montserrat', serif;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 34px;
     max-width: 650px;
     margin-bottom: 50px;
 }
@@ -375,7 +380,7 @@ label, a{
     padding: 20px 50px;
     font-family: 'Montserrat', serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
 }
 #question{
     height: 200px;
@@ -388,7 +393,7 @@ label, a{
     padding: 25px 100px;
     font-family: 'Montserrat', serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     background: rgb(133, 226, 255, 0);
     border-radius: 35px;
     border-width: 5px;
