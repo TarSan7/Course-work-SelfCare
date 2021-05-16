@@ -36,7 +36,7 @@
                     </label>
                     <ul class="menu-burger">
                         <li class="item">
-                            <a class="scroll" href="?page=main">Про нас</a>
+                            <a class="scroll" href="/">Про нас</a>
                         </li>
                         <li class="item">
                             <a class="scroll" href="?page=gallery">Йога</a>
