@@ -68,7 +68,7 @@
                                 <img onclick="document.location=''" src="img/youtube.svg" alt="youtube" class="youtube">
                                 <img onclick="document.location=''" src="img/twitter.svg" alt="youtube" class="twitter">
                             </div>
-                            <div class="col-lg-3 footer-number">
+                            <div class="col-lg-3 col-12 footer-number">
                                 <p class="number">+38-(099)-88-77-654</p>
                             </div>
                         </div>

@@ -222,16 +222,46 @@ footer img{
     footer img{
         width: 70%;
     }
+
+    .footer{
+        padding-top: 30px;
+    }
      
 }
 
 @media screen and (max-width: 576px){
-    footer img{
-        width: 25%;
+    .logo img{
+        width: 20%;
+        height: 100%;
     }
 
-    .footer-row{
-        align-items: center;
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .netw{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .netw img{
+        width: 50px;
+        height: auto;
+    }
+
+    
+    .netw img:nth-child(2n){
+        width: 40px;
+        height: auto;
+    }
+
+    .number{
+        margin-right: 0;
+    }
+
+    .footer-number{
         justify-content: center;
     }
 }
