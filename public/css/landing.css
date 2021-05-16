@@ -164,7 +164,7 @@
     font-weight: 600;
 }
 .instruct{
-    min-width: 350px;
+    max-width: 300px;
 }
 
 .part-text1, .part-text2{

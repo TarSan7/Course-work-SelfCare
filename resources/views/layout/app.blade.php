@@ -22,14 +22,14 @@
                 <div class="logo col-3">
                     <img class="logo" src="img/logo.svg" alt="logo: SelfCare">
                 </div>
-                <div class="col-5"></div>
+                <div class="col-lg-5 col-4"></div>
                 <div class="phone-basket col-4">
                     <img class="phone" src="img/phone.svg" alt="phone">
                     <img class="basket" src="img/basket.svg" alt="basket">
+                    <img class="phone1" src="img/phone1.svg" alt="phone">
+                    <img class="basket1" src="img/basket1.svg" alt="basket">
                 </div>
-            </div>
-            <div class="row head-row-second">
-                <div class="col-11 burger">
+                <div class="col-1 col-lg-11 burger">
                     <input id="menu-toggle" type="checkbox" />
                     <label class="menu-btn" for="menu-toggle">
                         <span></span>
@@ -52,6 +52,7 @@
                         </li>
                     </ul>
                 </div>
+            
 
                 @yield('content')
 
