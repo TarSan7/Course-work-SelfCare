@@ -159,7 +159,7 @@ button:hover{
     color: #949494;
     border: none;
     background-color: transparent;
-    background-image: url(img/detailedButtonIcon.png);
+    background-image: url("img/detailedButtonIcon.png");
     background-position: bottom; 
     background-repeat: no-repeat; 
     width: 16%;
@@ -170,7 +170,7 @@ button:hover{
 }
 
 .firstInstructor, .secondInstructor{
-    background-image: url(img/BackgroundInsrt.png);
+    background-image: url("img/BackgroundInsrt.png");
     height: 380px;
 }
 
