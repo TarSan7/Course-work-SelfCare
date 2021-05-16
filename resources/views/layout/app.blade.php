@@ -42,7 +42,7 @@
                             <a class="scroll" href="?page=gallery">Йога</a>
                         </li>
                         <li class="item">
-                            <a class="scroll" href="?page=info">Медитації</a>
+                            <a class="scroll" href="/meditation">Медитації</a>
                         </li>
                         <li class="item">
                             <a class="scroll" href="?page=contacts">Здорове харчування</a>

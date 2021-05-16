@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'firstPage']);
+
+Route::get('/meditation', [MainController::class, 'meditationPage']);

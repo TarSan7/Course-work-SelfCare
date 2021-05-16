@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background: url('../img/mainScreenMeditation.png') no-repeat center;
+    height: 777px;
+    width: 100%;
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+color: #000000;
+}
+
+p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 130%;
+color: #000000;
+
+}
+
+.offer{
+    float: bottom;
+    margin:5.65% auto 0;
+    background-color:  #FFFFFF;
+    width: 96%;
+    padding: 5% 10% 13.5%;
+}
+
+.offer h1{
+    margin-bottom: 4.7%;
+}
+
+h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+}
+
+.firstRow{
+    display:flex;
+}
+
+.typesOfYoga h1{
+    margin-top: 8%;
+    margin-bottom: 6.5%;
+}
+
+.typesOfYoga img{
+    width: 100%;
+}
+
+.typesOfYoga p{
+    margin: 0;
+    font-size: 20.5px;
+}
+
+.typesOfYoga .row{
+    margin-bottom: 8.8%;
+}
+
+.punct{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 26px;
+    width: 74.4%;
+    margin: 0 auto 3.5%;
+}
+
+.punct p{
+    width: 90%;
+    margin-bottom: 0;
+}
+
+.whatWillYouGet img{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.whatWillYouGet h1{
+    margin-bottom: 5.26%;
+}
+
+.whatWillYouGet{
+    padding-bottom: 8.3%;
+}
+
+.punct-last{
+    margin-bottom: 5.26%;
+}
+
+button{
+    display: block;
+    width: 30%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border: 5px solid #0AC6FF;
+    box-sizing: border-box;
+    border-radius: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
+}
+
+button:hover{
+    background:rgb(153, 231, 255, 0.5);;
+    transition: all 0.5s linear;
+}
+
+.boldText{
+    font-weight: 600;
+}
+
+.row{
+    justify-content: space-between;
+}
+
+.instructors p{
+    width: 100%;
+    font-size: 21px;
+}
+
+#moreDetailed1, #moreDetailed2{
+    /*opacity:0;
+    transition: all 1s linear;*/
+    display: none;
+}
+
+#buttonDetailed1, #buttonDetailed2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #949494;
+    border: none;
+    background-color: transparent;
+    background-image: url(/img/detailedButtonIcon.png);
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    width: 16%;
+    height: 26%;
+    display: flex;
+    align-items:top;
+    justify-content: center;
+}
+
+.firstInstructor, .secondInstructor{
+    background-image: url(/img/BackgroundInsrt.png);
+    height: 380px;
+}
+
+.firstInstructor{
+    margin-bottom: 4.5%;
+}
+
+.mainInfoAboutInstr{
+    margin-bottom: 5%;
+}
+
+.instructors h1{
+    margin-bottom: 4.5%;
+}
+
+
+.contact{
+    background: url('/img/form.png') no-repeat center;
+    background-size:cover;
+    margin-top: 80px;
+}
+.form-title{
+    display: flex;
+    justify-content: center;
+}
+.title2{
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 650px;
+    margin-bottom: 50px;
+}
+.area{
+    background: #FFFDFD;
+    border: 1px solid #949494;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 95%;
+    margin-bottom: 40px;
+    padding: 20px 50px;
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+#question{
+    height: 200px;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+.button3{
+    padding: 25px 100px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(133, 226, 255, 0);
+    border-radius: 35px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0AC6FF;
+    color: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .main-header{
+        background: url('../img/mainScreenMeditation\(1200-992\).png') no-repeat center;
+    }
+
+    .offer{
+        width: 90%;
+        margin-top: 13.5%;
+    }
+
+    .typesOfYoga p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 32px;
+    }
+
+    .main-header{
+        background: url('../img/mainScreenMeditation\(992-768\).png') no-repeat center;
+    }
+
+    .offer{
+        width: 100%;
+        margin-top: 13.5%;
+        text-align: center;
+        padding: 5% 5% 25%;
+    }
+
+    .typesOfYoga .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .typesOfYoga .row:nth-child(2n){
+        display: flex;
+        flex-direction: column
+    }
+
+    .typesOfYoga h1{
+        margin-bottom: 4.5%;
+    }
+
+    .typesOfYoga img{
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+
+    .typesOfYoga p{
+        margin-bottom: 3%;
+    }
+
+    .punct{
+        width: 100%;
+    }
+
+    button{
+        width: 48%; 
+    }
+
+    .firstInstructor, .secondInstructor{
+        background-image: none;
+    }
+
+    .mainInfoAboutInstr{
+        height: 100%;
+        margin-bottom: 0;
+    }
+
+    #buttonDetailed1, #buttonDetailed2{
+        height: 38%;
+    }
+}
