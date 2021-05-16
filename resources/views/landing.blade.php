@@ -2,7 +2,7 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') ../public/css/landing.css @endsection
+@section('style') css/landing.css @endsection
 
 @section('content')
 <div class="col-1"></div>
