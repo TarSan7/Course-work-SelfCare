@@ -204,6 +204,7 @@ ul{
     }
     .basket1{
         margin-left: 35px;
+        margin-right: 20px;
         width: 45px;
         height: 45px;
     }
@@ -234,7 +235,7 @@ ul{
     .menu-btn > span,
     .menu-btn > span::before,
     .menu-btn > span::after {
-        height: 2px;
+        height: 1.8px;
     }
 
     /* footer */
