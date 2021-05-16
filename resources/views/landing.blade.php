@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="col-lg-1"></div>
-<div class="col-11 main-content">
+<div class="col-12 col-sm-11 main-content">
     <p class="slogan-title">
         Хочеш обрати шлях здоров’я, змінити світогляд, підтримувати тіло і дух у відмінній формі?
     </p>

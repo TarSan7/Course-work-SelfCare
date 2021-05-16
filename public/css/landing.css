@@ -227,7 +227,7 @@
     overflow: hidden;
 }
 .comment{
-    width: 99.6%;
+    width: 99%;
     height: 99.6%;
     padding: 35px 70px 50px 70px;
     background: rgba(245, 245, 245, 0.9);
@@ -405,4 +405,96 @@ label, a{
 }
 .button3:hover{
     background: rgb(249, 222, 201, 0.5);
+}
+
+@media (max-width: 992px){
+    .title, .title1 {
+        margin-top: 80px;
+        font-size: 34px;
+    }
+    .text, .part-text1, .part-text2{
+        font-size: 20px;
+    }
+    .part-text{
+        font-size: 18px;
+    }
+    .h2parts{
+        font-size: 32px;
+    }
+    .button1{
+        margin-top: 30px;
+    }
+    .part-photo{
+        max-width: 200px;
+    }
+    #left-text{
+        margin-top: 30px;
+        max-width: 550px;
+    }
+    .button2{
+        margin-top: 30px;
+        padding: 20px 60px;
+    }
+    .instruct{
+        max-width: 200px;
+    }
+    .star{
+        max-width: 25px;
+    }
+    .comment-photo{
+        max-width: 70px;
+    }
+    .photo-name{
+        max-width: 150px;
+    }
+    .title2{
+        font-size: 30px;
+    }
+    .area{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px){
+    .slogan-title{
+        font-size: 34px;
+    }
+    .slogan{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .span1, .span2, .span3{
+        font-size: 20px;
+    }
+    .part-photo{
+        max-width: 150px;
+    }
+    .part-text, .part-text2, .part-text1{
+        font-size: 16px;
+    }
+    .wrap-part{
+        padding: 5px;
+    }
+    .section3{
+        background: url('../img/courseOfHealth1.png') no-repeat center bottom;
+        background-size: cover;
+    }
+    .button2{
+        margin-bottom: 300px;
+    }
+    .comment-row{
+        display: block;
+    }
+    .stars{
+        margin-top: 10px;
+        text-align: right;
+    }
+    .comment .text{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 560px) {
+    
 }
