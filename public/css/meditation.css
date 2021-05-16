@@ -163,7 +163,8 @@ button:hover{
     background-position: bottom; 
     background-repeat: no-repeat; 
     width: 16%;
-    height: 26%;
+    /*height: 26%;*/
+    height: 85px;
     display: flex;
     align-items:top;
     justify-content: center;
@@ -319,11 +320,198 @@ button:hover{
     }
 
     .mainInfoAboutInstr{
-        height: 100%;
-        margin-bottom: 0;
+        height: 285px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #buttonDetailed1, #buttonDetailed2{
+        height: 85px;
+        }
+
+    .details1{
+            margin: 0 -10% 0 -75%;
+            width: 175%;
+    }
+
+    .details2{
+        margin: 0 0 0 0;
+        width: 175%;
+    }
+
+    .firstInstructor{
+        margin-bottom: 160px;
+    }
+
+    .moreDetailed2{
+        margin-bottom: 20%;
+    }
+
+    .instructors{
+        background-image: url(../img/bgInstr\(992-768\).png);
+        background-repeat: no-repeat;
+        /*background-size: cover;*/
+        width: 100%;
+        height:1000px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    h2{
+        font-size: 28px;
+
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+    }
+
+    .main-header{
+        background: url('../img/mainScreenMeditation\(992-768\)\ \(3\).png') no-repeat center;
+    }
+
+    .offer{
+        margin-top: 30%;
+        padding: 5% 5% 25%;
+    }
+
+    button{
+        width:65%;
+    }
+
+    .instructors{
+        background: url(../img/bgInstr\(768-576\).png);
+    }
+
+    .mainInfoAboutInstr{
+        height: 254px;
+    }
+
+    .instructors p{
+        font-size: 18px;
+    }
+
+    .details1{
+        margin: 0 -10% 0 -113%;
+        width: 212%;
+    }
+
+    .details2{
+        width: 212%;
+    }
+
+    .firstInstructor{
+        margin-bottom: 120px;;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    h2{
+        font-size: 23px;
+        line-height: 28p
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .main-header{
+        background-image: url(../img/mainScreenMeditation\(576\).png);
+        height: 930px;
+    }
+    .offer{
+        margin: 72% auto 0;
+        width: 90%;
+        padding-bottom: 30%;
+    }
+
+    .typesOfYoga img{
+        width: 100%;
+    }
+
+    .instructors p{
+        font-size: 15px;
+        line-height: 130%;
+    }
+
+    .firstInstructor .row{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .mainInfoAboutInstr{
+        height: auto;
+    }
+
+    .secondInstructor .row{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .details1, .details2{
+        margin: 105% 0 0 0;
+        width: 100%;
+    }
+
+    .firstInstructor img, .secondInstructor img{
+        margin-top: -190%;
+    }
+
+    .firstInstructor, .secondInstructor{
+        margin-bottom: 400px;
     }
 
     #buttonDetailed1, #buttonDetailed2{
-        height: 38%;
+        display: none;
     }
+
+    #moreDetailed1, #moreDetailed2{
+        display: block;
+    }
+
+    .instructors{
+        height: auto;
+    }
+
+    .button3{
+        width: 120px;
+    }
+
+    .title2{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 30px;
+    }
+
+    .area{
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
 }
+
+
+

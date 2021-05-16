@@ -191,3 +191,46 @@ ul{
     text-align: center;
     margin-top: 50px;
 }
+
+footer img{
+    width: 50%;
+}
+
+@media screen and (max-width: 992px){
+    .netw{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 5%;
+    }
+
+    .number{
+        margin-right: 2%;
+    }
+
+    footer img{
+        width: 60%;
+    }
+
+    .footer-row{
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    footer img{
+        width: 70%;
+    }
+     
+}
+
+@media screen and (max-width: 576px){
+    footer img{
+        width: 25%;
+    }
+
+    .footer-row{
+        align-items: center;
+        justify-content: center;
+    }
+}

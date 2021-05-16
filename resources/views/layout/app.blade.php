@@ -58,16 +58,16 @@
                 <footer class="footer">
                     <div class="container">
                         <div class="row footer-row">
-                            <div class="col-3 ">
+                            <div class="col-lg-3 col-sm-4 col-12 logo">
                                 <img class="logo-ftr" src="img/logo-ftr.svg" alt="logo: SelfCare">
                             </div>
-                            <div class="col-6 netw">
+                            <div class="col-lg-6 col-sm-8 col-12 netw">
                                 <img onclick="document.location=''" src="img/instagram.svg" alt="facebook" class="instagram">
                                 <img onclick="document.location=''" src="img/facebook.svg" alt="instagram" class="facebook">
                                 <img onclick="document.location=''" src="img/youtube.svg" alt="youtube" class="youtube">
                                 <img onclick="document.location=''" src="img/twitter.svg" alt="youtube" class="twitter">
                             </div>
-                            <div class="col-3 footer-number">
+                            <div class="col-lg-3 footer-number">
                                 <p class="number">+38-(099)-88-77-654</p>
                             </div>
                         </div>
