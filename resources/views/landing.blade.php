@@ -48,10 +48,10 @@
         <div class="row parts-row">
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="pointer" src="../public/img/pointer1.svg" alt="pointer">
+                    <img class="pointer" src="img/pointer1.svg" alt="pointer">
                 </div>
                 <div class="imgwrap">
-                    <img class="part-photo" src="../public/img/part1.png" alt="photo">
+                    <img class="part-photo" src="img/part1.png" alt="photo">
                 </div>
                 <p class="part-text">
                     Йога - це не просто спортивна практика, це особливий момент,
@@ -61,10 +61,10 @@
             </div>
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="pointer" src="../public/img/pointer2.svg" alt="pointer">
+                    <img class="pointer" src="img/pointer2.svg" alt="pointer">
                 </div>
                 <div class="imgwrap">
-                    <img class="part-photo" src="../public/img/part2.png" alt="photo">
+                    <img class="part-photo" src="img/part2.png" alt="photo">
                 </div>
                 <p class="part-text">
                     Медитація - це не мантри, пахощі і транс. Це знайомство з роботою вашого мозку,
@@ -73,10 +73,10 @@
             </div>
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="pointer" src="../public/img/pointer3.svg" alt="pointer">
+                    <img class="pointer" src="img/pointer3.svg" alt="pointer">
                 </div>
                 <div class="imgwrap">
-                    <img class="part-photo" src="../public/img/part3.png" alt="photo">
+                    <img class="part-photo" src="img/part3.png" alt="photo">
                 </div>
                 <p class="part-text">
                     Правильне харчування - це не сувора дієта, не відсутність в раціоні смаколиків,
@@ -110,7 +110,7 @@
         <div class="row instruct-row">
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="instruct" src="../public/img/instr1.png" alt="pointer">
+                    <img class="instruct" src="img/instr1.png" alt="pointer">
                 </div>
                 <p class="part-text1">
                     <span class="span5">Коваль Миколай<br></span>
@@ -125,12 +125,12 @@
                     Курси медитаціі, самостійний розвиток.
                 </p>
                 <div class="imgwrap">
-                    <img class="instruct" src="../public/img/instr2.png" alt="pointer">
+                    <img class="instruct" src="img/instr2.png" alt="pointer">
                 </div>
             </div>
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="instruct" src="../public/img/instr3.png" alt="pointer">
+                    <img class="instruct" src="img/instr3.png" alt="pointer">
                 </div>
                 <p class="part-text1">
                     <span class="span5">Злотник Марія <br></span>
@@ -148,7 +148,7 @@
         <div class="row instruct-row">
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="whywe" src="../public/img/why1.png" alt="pointer">
+                    <img class="whywe" src="img/why1.png" alt="pointer">
                 </div>
                 <p class="part-text">
                     Усі інструктори – висококваліфіковані та досвідчені професіонали
@@ -156,7 +156,7 @@
             </div>
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="whywe" src="../public/img/why2.png" alt="pointer">
+                    <img class="whywe" src="img/why2.png" alt="pointer">
                 </div>
                 <p class="part-text">
                     Комфортні умови проживання та заняття на природі
@@ -164,7 +164,7 @@
             </div>
             <div class="col-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="whywe" src="../public/img/why3.png" alt="pointer">
+                    <img class="whywe" src="img/why3.png" alt="pointer">
                 </div>
                 <p class="part-text">
                     Дружня та заспокійлива атмосфера на заняттях
@@ -175,7 +175,7 @@
             <div class="col-2"></div>
             <div class="col-4 wrap-part" id="whymarg">
                 <div class="imgwrap">
-                    <img class="whywe" src="../public/img/why4.png" alt="pointer">
+                    <img class="whywe" src="img/why4.png" alt="pointer">
                 </div>
                 <p class="part-text">
                     Розумна ціна за послуги
@@ -183,7 +183,7 @@
             </div>
             <div class="col-4 wrap-part" id="whymarg">
                 <div class="imgwrap">
-                    <img class="whywe" src="../public/img/why5.png" alt="pointer">
+                    <img class="whywe" src="img/why5.png" alt="pointer">
                 </div>
                 <p class="part-text">
                     Продумана до дрібниць програма
@@ -221,15 +221,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="../public/img/coment1.png" alt="" class="comment-photo">
+                                            <img src="img/coment1.png" alt="" class="comment-photo">
                                             <p class="comment-name">Тараненко Наталія</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Йога - спосіб відпочити для людини ХХІ століття.
@@ -245,15 +245,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="../public/img/coment2.png" alt="" class="comment-photo">
+                                            <img src="img/coment2.png" alt="" class="comment-photo">
                                             <p class="comment-name">Терещенко Вікторія</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Курс медитації неперевершений! Я в захваті від колективу,
@@ -270,15 +270,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="../public/img/coment3.png" alt="" class="comment-photo">
+                                            <img src="img/coment3.png" alt="" class="comment-photo">
                                             <p class="comment-name">Кропив’янський Володимир</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Дуже сподобалося, що можна обрати сладові курсу самостійно, вибрав медитацію
@@ -294,15 +294,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="../public/img/coment4.png" alt="" class="comment-photo">
+                                            <img src="img/coment4.png" alt="" class="comment-photo">
                                             <p class="comment-name">Стефаник Катерина</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Курс по здоровому харчуванню просто відмінний. Я пошкодувала, що не взяла відразу
@@ -316,15 +316,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="../public/img/coment5.png" alt="" class="comment-photo">
+                                            <img src="img/coment5.png" alt="" class="comment-photo">
                                             <p class="comment-name">Рибак Всеволод</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
-                                            <img src="../public/img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="img/star.png" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Без вагань обрав комплексний курс із йоги, медитації та правильного харчування.
