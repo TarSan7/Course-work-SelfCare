@@ -5,7 +5,7 @@
 @section('style') css/landing.css @endsection
 
 @section('content')
-<div class="col-1"></div>
+<div class="col-lg-1"></div>
 <div class="col-11 main-content">
     <p class="slogan-title">
         Хочеш обрати шлях здоров’я, змінити світогляд, підтримувати тіло і дух у відмінній формі?
@@ -14,6 +14,7 @@
         SelfCare - ідеальний інструмент<br>для твого саморозвитку.
     </p>
     <button onclick="document.location=''" class="button">Приєднатися до нас!</button>
+</div>
 </div>
 
 </div>
