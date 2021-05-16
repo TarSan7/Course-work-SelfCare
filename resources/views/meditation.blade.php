@@ -23,7 +23,7 @@
     <div class="container">
         <h1>Види медитації, та як обрати “свою”</h1>
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <h2>Усвідомлене дихання</h2>
                 <p>Усвідомлене дихання - це ключова практика, яка прийшла до нас з буддизму.
                     Їй вже як мінімум 2500 років. Мовою Палі вона називається Ānāpānasati, 
@@ -33,15 +33,15 @@
                     входить і виходить через легені. Спостерігайте за тривалістю кожного вдиху і видиху. І не 
                     лякайтеся, якщо увага раптом перескочить на щось інше - просто поверніть її назад.</p>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <img src="/img/ConcsiousBreatheImage.png" alt="">
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <img src="/img/Visualization Image.png" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
             <h2>Візуалізація</h2>
                 <p>Медитації-візуалізації допомагають розвивати уяву. Однак, це не основна її мета. На відміну 
                     від звичайної медитації, медитація-візуалізація - це творчий усвідомлений процес. Для початку 
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <h2>Віпассана</h2>
                 <p>Віпассана, що означає бачити речі такими, якими вони є насправді, є однією з найдавніших технік медитації 
                     в Індії. Медитація внутрішнього осяяння. Вона закликає звернути увагу на відчуття як такі, а не на думки 
@@ -62,15 +62,15 @@
                     зручно: низьку лавочку, подушки, стілець. Ніякої спеціальної дихальної техніки - просто рівне, природне 
                     дихання. Поспостерігайте за кожним своїм вдихом і видихом</p>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <img src="/img/VipasanaImage.png" alt="">
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <img src="/img/ActionImage.png" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
             <h2>Медитація в русі</h2>
                 <p>Медитацію в русі Ви можете практикувати під час занять Хатха-йогою чи, 
                     при ходьбі і т. д. Підійде в тому випадку, якщо вам важко або просто 
@@ -168,7 +168,7 @@
 <section class="contact">
     <div class="container">
         <div class="form-title">
-            <h1 class="title2">Вже проходили курс?Залиште Ваш відгук</h1>
+            <h1 class="title2">Вже проходили курс?<br>Залиште Ваш відгук</h1>
         </div>
         <form action="" class="form" method="POST">
             <div class="row form-row">
@@ -189,12 +189,12 @@
 </section>
 <script type="text/javascript">
     function viewDetails1(){
-    document.getElementById("moreDetailed1").style.opacity = "1";
+    document.getElementById("moreDetailed1").style.display = "block";
     document.getElementById("buttonDetailed1").style.display = "none";
 };
 
 function viewDetails2(){
-    document.getElementById("moreDetailed2").style.opacity = "1";
+    document.getElementById("moreDetailed2").style.display = "block";
     document.getElementById("buttonDetailed2").style.display = "none";
 };
 </script>
