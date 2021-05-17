@@ -279,16 +279,31 @@ footer img{
 }
 
 @media screen and (max-width: 576px){
-    .logo img{
-        width: 20%;
-        height: 100%;
+    .menu-burger{
+        width: 300px;
     }
-
+    .main-header{
+        height: 815px;
+        background: url('../img/mainScreenLanding.png') no-repeat left;
+        background-size:cover;
+    }
+    .container{
+        padding: 0 5%;
+    }
     .logo{
+        width: 180px;
+    }
+    .basket1{
+        width: 35px;
+    }
+    .phone1{
+        width: 30px;
+    }
+    footer .logo{
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
-    }
+    } 
 
     .netw{
         justify-content: center;

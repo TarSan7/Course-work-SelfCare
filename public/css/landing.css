@@ -180,7 +180,9 @@
 .part-text2{
     margin-bottom: 40px;
 }
-
+#unvis{
+    display: none;
+}
 .section5{
     background: linear-gradient(135deg, rgba(133,226,255,0.5) 0%, rgba(133,255,196,0.5) 100%);
     margin-top: 100px;
@@ -495,6 +497,122 @@ label, a{
         margin-top: 30px;
     }
 }
-@media (max-width: 560px) {
-    
+@media (max-width: 576px) {
+
+    .slogan-title{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 130px;
+    }
+    .slogan{
+        font-size: 18px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .button, .button1{
+        padding: 20px 30px;
+        font-size: 16px;
+        margin-top: 70px;
+    }
+    .btwrap{
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 24px;
+        background-size: 200px 1px;
+    }
+    .text, .span1, .span2, .span3{
+        font-size: 16px;
+    }
+    .button1{
+        margin-top: 40px;
+    }
+    .title1{
+        font-size: 24px;
+    }
+    .h2parts{
+        font-size: 20px;
+    }
+    .pointer{
+        display: none;
+    }
+    .part-photo{
+        max-width: 100%;
+    }
+    .part-text{
+        max-width: 280px;
+    }
+    .textwrap{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .button2{
+        padding: 20px 50px;
+        font-size: 16px;
+    }
+    #left-text{
+        text-align: center;
+    }
+    #vis{
+        display: none;
+    }
+    #unvis{
+        display: block;
+        margin-top: 30px;
+    }
+    #whymarg{
+        padding: 0;
+    }
+    .stars{
+        justify-content: center;
+        text-align: center;
+    }
+    .comment{
+        padding: 30px 20px;
+    }
+    .comment .text{
+        font-size: 14px;
+    }
+    .comment-name{
+        font-size: 14px;
+        margin: 0 0 0 5px;
+    }
+    .comment-photo{
+        max-width: 50px;
+    }
+    #switch1:checked ~ #controls label:nth-child(5),
+    #switch2:checked ~ #controls label:nth-child(1),
+    #switch3:checked ~ #controls label:nth-child(2),
+    #switch4:checked ~ #controls label:nth-child(3),
+    #switch5:checked ~ #controls label:nth-child(4){
+        background: url('../img/arrowl1.svg') no-repeat;
+        margin: 0 0 0 -34px;
+        height: 30px;
+        width: 30px;
+    }
+    #switch1:checked ~ #controls label:nth-child(2),
+    #switch2:checked ~ #controls label:nth-child(3),
+    #switch3:checked ~ #controls label:nth-child(4),
+    #switch4:checked ~ #controls label:nth-child(5),
+    #switch5:checked ~ #controls label:nth-child(1){
+        background: url('../img/arrowr1.svg') no-repeat;
+        margin: 0 -34px 0 0;
+        height: 30px;
+        width: 30px;
+    }
+        
+    /* #switch1:checked ~ #controls label:nth-child(5),
+    #switch2:checked ~ #controls label:nth-child(1),
+    #switch3:checked ~ #controls label:nth-child(2),
+    #switch4:checked ~ #controls label:nth-child(3),
+    #switch5:checked ~ #controls label:nth-child(4),
+    #switch1:checked ~ #controls label:nth-child(2),
+    #switch2:checked ~ #controls label:nth-child(3),
+    #switch3:checked ~ #controls label:nth-child(4),
+    #switch4:checked ~ #controls label:nth-child(5),
+    #switch5:checked ~ #controls label:nth-child(1){
+      display: none;
+    } */
 }
