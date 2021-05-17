@@ -226,6 +226,12 @@ footer img{
     .footer{
         padding-top: 30px;
     }
+    .basket1{
+        margin-left: 35px;
+        margin-right: 20px;
+        width: 45px;
+        height: 45px;
+    }
      
 }
 
@@ -259,7 +265,13 @@ footer img{
 
     .number{
         margin-right: 0;
+    } 
+    .menu-btn > span,
+    .menu-btn > span::before,
+    .menu-btn > span::after {
+        height: 1.8px;
     }
+    
 
     .footer-number{
         justify-content: center;
