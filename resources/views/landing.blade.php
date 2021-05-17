@@ -382,11 +382,11 @@
         </div>
         <form action="" class="form" method="POST">
             <div class="row form-row">
-                <div class="col-6 name-mail">
+                <div class="col-lg-6 col-sm-12  name-mail">
                     <input type="text" required class="area" name="user-name" placeholder="Ваше ім'я...">
                     <input type="email" required class="area" name="user-email" placeholder="Електронна пошта...">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-sm-12">
                     <textarea type="comment" placeholder="Ваше питання..." required class="area" id="question" name="question"></textarea>
                 </div>
                 <div class="col-12 form-button">
