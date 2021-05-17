@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/main', [MainController::class, 'firstPage']) -> name('main');
 
 Route::get('/meditation', [MainController::class, 'meditationPage']) -> name('meditation');
+
+Route::get('/yoga', [MainController::class, 'yogaPage']) -> name('yoga');

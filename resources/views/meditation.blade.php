@@ -115,9 +115,9 @@
                     <img src="img/meditationInstr1Photo.png" alt="">
                 </div>
                 <div class="col-lg-8 col-sm-6 col-md-7 col-12">
-                    <p class="mainInfoAboutInstr"><span class="boldText">Міщенко Ксенія</span>
-                            Вік: 25 років.
-                            Освіта: курси медитаціі, самостійний розвиток.
+                    <p class="mainInfoAboutInstr"><span class="boldText">Міщенко Ксенія</span> <br>
+                            Вік: 25 років. <br>
+                            Освіта: курси медитаціі, самостійний розвиток. <br>
                             Знання мов: російська — вільно, українська — вільно; англійська — високий.
                     </p>
                     <div class="details1">
@@ -143,9 +143,9 @@
             <div class="row">
                 <div class="col-lg-8 col-sm-6 col-md-7 col-12">
                     <p class="mainInfoAboutInstr">
-                            <span class="boldText">Семенов Владислав</span>
-                            Вік: 28 років.
-                            Освіта: курси медитаціі, групові заняття, приватні заняття.
+                            <span class="boldText">Семенов Владислав</span> <br>
+                            Вік: 28 років. <br>
+                            Освіта: курси медитаціі, групові заняття, приватні заняття. <br>
                             Знання мов: російська — вільно, українська — вільно; англійська — середній.
                     </p>
                     <div class="details2">

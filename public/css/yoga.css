@@ -4,7 +4,7 @@
 }
 
 .main-header{
-    background: url('../img/mainScreenMeditation.png') no-repeat center;
+    background: url('../img/mainScreenYoga.png') no-repeat center;
     height: 777px;
     width: 100%;
     background-size: cover;
@@ -38,7 +38,7 @@ color: #000000;
     margin:6% auto 0;
     background-color:  #FFFFFF;
     width: 96%;
-    padding: 5% 10% 13.5%;
+    padding: 5% 10% 17%;
 }
 
 .offer h1{
@@ -113,7 +113,7 @@ button{
     width: 30%;
     height: 80px;
     background-color: #FFFFFF;
-    border: 5px solid #0AC6FF;
+    border: 5px solid #00CC69;
     box-sizing: border-box;
     border-radius: 35px;
     font-family: Montserrat;
@@ -126,7 +126,7 @@ button{
 }
 
 button:hover{
-    background:rgb(153, 231, 255, 0.5);;
+    background:rgb(133, 255, 196, 0.3);;
     transition: all 0.5s linear;
 }
 
@@ -170,16 +170,21 @@ button:hover{
 }
 
 .firstInstructor, .secondInstructor{
-    background-image: url('../img/BackgroundInstr1\ \(1\).png');
-    height: 400px;
+    background-image: url('../img/bgInstrYoga1.png');
+    height: 460px;
+}
+
+.secondInstructor{
+    background-image: url('../img/bgInstrYoga2.png');
+    height: 380px;
 }
 
 .firstInstructor{
-    margin-bottom: 4.5%;
+    margin-bottom: 5%;
 }
 
 .mainInfoAboutInstr{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .instructors h1{
@@ -233,7 +238,7 @@ button:hover{
     border-radius: 35px;
     border-width: 5px;
     border-style: solid;
-    border-color: #0AC6FF;
+    border-color: #00CC69;
     color: black;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-bottom: 60px;
@@ -254,7 +259,7 @@ button:hover{
     }
 
     .main-header{
-        background: url('../img/mainScreenMeditation\(1200-992\).png') no-repeat center;
+        background: url('../img/mainScreenYoga\(1200-992\).png') no-repeat center;
     }
 
     .offer{
@@ -266,13 +271,13 @@ button:hover{
         font-size: 18px;
     }
 
-    .firstInstructor, .secondInstructor{
-        background-image: url('../img/BackgroundInstr1\(1200-992\).png');
-        height: 440px;
+    
+    .firstInstructor{
+        height: 510px;
     }
 
-    .secondInstructor .mainInfoAboutInstr{
-        margin-bottom: 2%;
+    .secondInstructor {
+        height: 440px;
     }
 }
 
@@ -280,10 +285,6 @@ button:hover{
     
     .offer{
         padding-bottom: 23%;
-    }
-
-    .secondInstructor .mainInfoAboutInstr{
-        margin-bottom: 5%;
     }
 }
 
@@ -293,7 +294,7 @@ button:hover{
     }
 
     .main-header{
-        background: url('../img/mainScreenMeditation\(992-768\).png') no-repeat center;
+        background: url('../img/mainScreenYoga\(992-768\).png') no-repeat center;
     }
 
     .offer{
@@ -337,12 +338,11 @@ button:hover{
 
     .firstInstructor, .secondInstructor{
         background-image: none;
-        height: 520px;
     }
 
     .mainInfoAboutInstr{
         height: 285px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -364,7 +364,7 @@ button:hover{
     }
 
     .firstInstructor{
-        margin-bottom: 15px;
+        margin-bottom: 60px;
     }
 
     .moreDetailed2{
@@ -372,13 +372,23 @@ button:hover{
     }
 
     .instructors{
-        background-image: url(../img/bgInstr\(992-768\).png);
+        background-image: url(../img/bgInstrYoga\(992-768\).png);
         background-repeat: no-repeat;
         /*background-size: cover;*/
         width: 100%;
-        height:1105px;
+        height:1250px;
+    }
+
+    .firstInstructor{
+        height: 560px;
+    }
+
+    .secondInstructor{
+        height: 540px;
+        margin-bottom: 40px;
     }
 }
+
 
 
 @media screen and (max-width: 768px){
@@ -399,7 +409,7 @@ button:hover{
     }
 
     .main-header{
-        background: url('../img/mainScreenMeditation\(992-768\)\ \(3\).png') no-repeat center;
+        background: url('../img/mainScreenYoga\(768-576\).png') no-repeat center;
     }
 
     .offer{
@@ -412,16 +422,17 @@ button:hover{
     }
 
     .instructors{
-        background: url(../img/bgInstr\(768-576\)\ \(1\).png);
-        height: 1040px;
-    }
-
-    .mainInfoAboutInstr{
-        height: 254px;
+        background: url(../img/bgInstrYoga\(768-576\).png);
+        height: 1155px;
     }
 
     .instructors p{
         font-size: 18px;
+    }
+
+    .mainInfoAboutInstr{
+        height: 254px;
+        font-size: 16px !important;
     }
 
     .details1{
@@ -434,7 +445,7 @@ button:hover{
     }
 
     .firstInstructor{
-        margin-bottom: 20px;;
+        margin-bottom: 35px;;
     }
 
     .title2{
@@ -443,10 +454,6 @@ button:hover{
 
     .button3{
         margin-bottom: 40px;
-    }
-
-    .secondInstructor .mainInfoAboutInstr{
-        margin-bottom: 12%;
     }
 }
 
@@ -470,26 +477,8 @@ button:hover{
         margin-bottom: 27px;
     }
 
-    .firstInstructor{
-        margin-bottom: 15px;
-        height: 453px;
-    }
-
-    .secondInstructor .mainInfoAboutInstr{
-        margin-bottom: 12%;
-    }
-
-    .instructors{
-        height: 950px;
-    }
-
-}    
-
-/*@media (min-width: 575px) and (max-width: 576px){
-    body{
-        background-color: brown;
-    }
-}*/
+    
+}
 
 @media screen and (width: 576px){
     .col-sm-6{
@@ -531,8 +520,9 @@ button:hover{
     }
 
     .main-header{
-        background-image: url(../img/mainScreenMeditation\(576\).png);
-        height: 930px;
+        background-image: url(../img/mainScreenYoga\(576\).png);
+        height: 910px;
+        
     }
 
     .punct img{
@@ -569,19 +559,14 @@ button:hover{
         flex-direction: column;
     }
 
-    .secondInstructor .mainInfoAboutInstr, .firstInstructor .mainInfoAboutInstr{
-        margin-bottom: 2%;
-    }
-
-    .secondInstructor, .firstInstructor{
-        margin-bottom: 200px;
-    }
-
     .details1, .details2{
         margin: 0 0 0 0;
         width: 100%;
     }
 
+    .firstInstructor, .secondInstructor{
+        margin-bottom: 300px;
+    }
 
     #buttonDetailed1, #buttonDetailed2{
         display: none;
@@ -597,7 +582,7 @@ button:hover{
     }
 
     .firstInstructor, .secondInstructor{
-        background-color: #99E7FF;
+        background-color: #85FFC4;
     }
 
     .button3{
@@ -623,7 +608,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 845px;
+        height: 820px;
     }
 }
 
@@ -675,13 +660,11 @@ button:hover{
         width: 100%;
     }
 
-    .firstInstructor .mainInfoAboutInstr{
-        margin-bottom: 30px;
-    }
-
     .firstInstructor {
-        margin-bottom: 92px;
+        margin-bottom: 35px;
     }
 }
+
+
 
 
