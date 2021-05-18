@@ -35,8 +35,7 @@ color: #000000;
 }
 
 .offer{
-    float: bottom;
-    margin:5.65% auto 0;
+    margin:6% auto 0;
     background-color:  #FFFFFF;
     width: 96%;
     padding: 5% 10% 13.5%;
@@ -425,7 +424,28 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 575px){
+/*@media (min-width: 575px) and (max-width: 576px){
+    body{
+        background-color: brown;
+    }
+}*/
+
+@media screen and (width: 576px){
+    .col-sm-6{
+        max-width: 100%;
+    }
+    .offer{
+        width: 500px;
+        margin-left: -218px;
+        padding-bottom: 130px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px){
     .container{
         width: 90%;
     }
@@ -452,11 +472,6 @@ button:hover{
     .main-header{
         background-image: url(../img/mainScreenMeditation\(576\).png);
         height: 930px;
-    }
-    .offer{
-        margin: 72% auto 0;
-        width: 100%;
-        padding-bottom: 30%;
     }
 
     .punct img{
@@ -498,10 +513,6 @@ button:hover{
         width: 100%;
     }
 
-/*.firstInstructor img, .secondInstructor img{
-        margin-top: -190%;
-    }*/
-
     .firstInstructor, .secondInstructor{
         margin-bottom: 300px;
     }
@@ -542,7 +553,35 @@ button:hover{
         margin-bottom: 20px;
     }
 
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 820px;
+    }
 }
+
+@media screen and (max-width: 485px) {
+    .offer{
+        padding: 1% 0 0 auto;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .offer{
+        padding: 0;
+        padding-top: 1%;
+        padding-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .offer{
+        padding: 0;
+        padding-top: 1%;
+    }
+}
+
 
 
 

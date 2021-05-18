@@ -2,7 +2,9 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') css/meditation.css @endsection
+@section('style')
+<link rel="stylesheet" href="css/meditation.css">
+@endsection
 
 @section('content')
         <div class="col-0 col-sm-5"></div>
@@ -79,7 +81,6 @@
                     від підлоги, починаючи з п'яти і закінчуючи пальцями ніг, і переставляєте 
                     її вперед. Потім, з видихом, опускаєте стопу на підлогу, переносите на неї 
                     вагу і готуєтеся підняти іншу ступню на наступному вдиху.</p>
-                
             </div>
         </div>
     </div>
@@ -114,7 +115,7 @@
                 <div class="col-lg-4 col-sm-6 col-md-5 col-12">
                     <img src="img/meditationInstr1Photo.png" alt="">
                 </div>
-                <div class="col">
+                <div class="col-lg-8 col-sm-6 col-md-7 col-12">
                     <p class="mainInfoAboutInstr"><span class="boldText">Міщенко Ксенія</span>
                             Вік: 25 років.
                             Освіта: курси медитаціі, самостійний розвиток.

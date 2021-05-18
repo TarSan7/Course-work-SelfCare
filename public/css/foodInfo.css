@@ -1,0 +1,201 @@
+.main-header {
+    background: none;
+}
+
+.main-content {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.fuckingClass{
+    width: 80%;
+}
+/* .head-row-first {
+    justify-content: center;
+} */
+
+.main-content-text {
+    border: 1px solid #E58776;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.5);
+	border-radius: 22px;
+	font-size: 20px;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodImg {
+    width: 100%;
+    height: 100%;
+}
+
+.header-gradient {
+    text-align: center;
+    display: inline;
+    background-repeat: no-repeat;
+    background-position: center bottom 1px;
+    background-size: 75% 1px;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    line-height: 140%;
+}
+
+.boldText {
+    font-weight: 900;
+    text-align: center;
+    font-size: 28px;
+}
+
+.headerText {
+    font-size: 24px;
+}
+
+ul {
+    list-style: disc;
+}
+
+.menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+    background-color: #E58776;
+}
+
+.addColor {
+    background: #F9DEC9;
+}
+
+.howToCook {
+    background: linear-gradient(180deg, rgba(249, 222, 201, 0.85) 18.26%, #EFB3A0 100%);
+    border: 3px solid #E58776;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.stars {
+	margin-bottom: 1rem;
+}
+
+.goldenStar {
+	width: 30px;
+}
+
+.reiting {
+	display: flex;
+	align-items: center;
+}
+
+/* .fuckingClass {
+    width:100%;
+} */
+
+.smallBlock p {
+    margin-bottom: 0;
+}
+
+.reiting {
+    margin-bottom: 0;
+}
+
+.stepImg {
+    width: 70px;
+    height: auto;
+}
+
+.recepieStep {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    align-items: center;
+}
+
+.recepie {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.recepieContent {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.recepieHeader {
+    display: block;
+}
+
+@media screen and (max-width: 995px) {
+    .goldenStar {
+        width: 25px;
+    }
+
+    .stepImg {
+        width: 50px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 765px) {
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .headerText {
+        font-size: 20px;
+    }
+
+    .smallBlock {
+        margin-top: 8%;
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .smallBlock p {
+        font-size: 18px;
+    }
+
+    .stepImg {
+        width: 40px;
+        height: auto;
+    }
+
+    .recepieStep p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .boldText {
+        font-size: 24px;
+    }
+
+    .header-gradient {
+        font-size: 24px;
+    }
+
+    .recepieHeader {
+        font-size: 24px;
+    }
+
+    .recepieStep p {
+        font-size: 18px;
+    }
+
+    .recepieStep {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        grid-row-gap: 8%;
+        padding-top: 10%;
+    }
+
+    .main-content {
+        flex-direction: unset;
+    }
+
+}

@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+	background: url(../img/image\ 5.svg) no-repeat center;
+}
+
+.main-content-text {
+	opacity: 0.6;
+	background: #FFFFFF; /* Цвет фона */
+	padding: 5px; /* Поля вокруг текста */
+    width: 80%;
+    margin-top: 10%;
+    text-align: center;
+    padding: 5%;
+}
+
+.headerText {
+    font-size: 24px;
+    padding-top: 4%;
+}
+
+.whyImportant {
+	background-color: #E58776;
+}
+
+.iteam {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.header {
+	text-align: center; 
+	font-size: 38px;
+	font-weight: bold;
+	line-height: normal;
+}
+
+.iteamImg {
+	width: 110px;
+	height: auto;
+}
+
+.text {
+	font-size: 24px;
+}
+
+.iteamRecepies {
+	border: 1px solid #E58776;
+	background-color: #FFFCFC;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.5);
+	border-radius: 22px;
+	font-size: 20px;
+}
+
+.recepieText {
+	font-size: 22px;
+}
+
+.recepieImg {
+	width: 100%;
+	align-self: center;
+}
+
+.recepieName {
+	font-size: 25px;
+	font-weight: medium;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание */
+	color: black;
+}
+
+.recepieNameCont {
+	display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+}
+
+.stars {
+	margin-bottom: 1rem;
+}
+
+.goldenStar {
+	width: 30px;
+}
+
+.reiting {
+	display: flex;
+	align-items: center;
+}
+
+.firstInstructor, .secondInstructor {
+    background-image: url(../img/Foodbackground.png);
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .goldenStar {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+    .header {
+		font-size: 32px;
+	}
+
+	.goldenStar {
+        width: 22px;
+    }
+
+	.recepieText {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 765px) {
+	.goldenStar {
+        width: 19px;
+	}
+
+	.recepieName {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+
+	.headerText {
+		font-size: 20px;
+	}
+
+	.main-content {
+		flex-direction: unset;
+		height: 620px;
+	}
+
+	.iteamRecepies {
+		width: 80%;
+	}
+
+	.mycol {
+		display: flex;
+    	justify-content: center;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.header {
+		font-size: 26px;
+	}
+
+	.text {
+		font-size: 20px;
+	}
+
+	.iteamRecepies {
+		width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+
+	.header {
+		font-size: 24px;
+	}
+
+	.text {
+		font-size: 14px;
+	}
+
+	.iteamRecepies {
+		width: 90%;
+	}
+
+}
