@@ -22,14 +22,19 @@
                 <div class="logo col-3">
                     <img class="logo" src="../img/logo.svg" alt="logo: SelfCare">
                 </div>
-                <div class="col-5"></div>
+                <div class="col-lg-5 col-4"></div>
                 <div class="phone-basket col-4">
+<<<<<<< HEAD
                     <img class="phone" src="../img/phone.svg" alt="phone">
                     <img class="basket" src="../img/basket.svg" alt="basket">
+=======
+                    <img class="phone" src="img/phone.svg" alt="phone">
+                    <img class="basket" src="img/basket.svg" alt="basket">
+                    <img class="phone1" src="img/phone1.svg" alt="phone">
+                    <img class="basket1" src="img/basket1.svg" alt="basket">
+>>>>>>> f4090d9521ac3cf73c51e8bd8fff3f7ee81deb00
                 </div>
-            </div>
-            <div class="row head-row-second">
-                <div class="col-11 burger">
+                <div class="col-1 col-lg-11 burger">
                     <input id="menu-toggle" type="checkbox" />
                     <label class="menu-btn" for="menu-toggle">
                         <span></span>
@@ -52,12 +57,14 @@
                         </li>
                     </ul>
                 </div>
+            
 
                 @yield('content')
 
                 <footer class="footer">
                     <div class="container">
                         <div class="row footer-row">
+<<<<<<< HEAD
                             <div class="col-3 ">
                                 <img class="logo-ftr" src="../img/logo-ftr.svg" alt="logo: SelfCare">
                             </div>
@@ -66,8 +73,18 @@
                                 <img onclick="document.location=''" src="../img/facebook.svg" alt="instagram" class="facebook">
                                 <img onclick="document.location=''" src="../img/youtube.svg" alt="youtube" class="youtube">
                                 <img onclick="document.location=''" src="../img/twitter.svg" alt="youtube" class="twitter">
+=======
+                            <div class="col-lg-3 col-sm-4 col-12 logo">
+                                <img class="logo-ftr" src="img/logo-ftr.svg" alt="logo: SelfCare">
                             </div>
-                            <div class="col-3 footer-number">
+                            <div class="col-lg-6 col-sm-8 col-12 netw">
+                                <img onclick="document.location=''" src="img/instagram.svg" alt="facebook" class="instagram">
+                                <img onclick="document.location=''" src="img/facebook.svg" alt="instagram" class="facebook">
+                                <img onclick="document.location=''" src="img/youtube.svg" alt="youtube" class="youtube">
+                                <img onclick="document.location=''" src="img/twitter.svg" alt="youtube" class="twitter">
+>>>>>>> f4090d9521ac3cf73c51e8bd8fff3f7ee81deb00
+                            </div>
+                            <div class="col-lg-3 col-12 footer-number">
                                 <p class="number">+38-(099)-88-77-654</p>
                             </div>
                         </div>

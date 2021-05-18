@@ -7,15 +7,18 @@
 @endsection
 
 @section('content')
-<div class="col-1"></div>
-<div class="col-11 main-content">
+<div class="col-lg-1"></div>
+<div class="col-12 col-sm-11 main-content">
     <p class="slogan-title">
         Хочеш обрати шлях здоров’я, змінити світогляд, підтримувати тіло і дух у відмінній формі?
     </p>
     <p class="slogan">
         SelfCare - ідеальний інструмент<br>для твого саморозвитку.
     </p>
-    <button onclick="document.location=''" class="button">Приєднатися до нас!</button>
+    <p class="btwrap">
+        <button onclick="document.location=''" class="button">Приєднатися до нас!</button>
+    </p>
+</div>
 </div>
 
 </div>
@@ -48,45 +51,50 @@
         <h1 class="title1">SelfCare</h1>
         <h2 class="h2parts">Three main parts</h2>
         <div class="row parts-row">
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="pointer" src="img/pointer1.svg" alt="pointer">
                 </div>
                 <div class="imgwrap">
                     <img class="part-photo" src="img/part1.png" alt="photo">
                 </div>
-                <p class="part-text">
-                    Йога - це не просто спортивна практика, це особливий момент,
-                    який ви присвячуєте самому собі. Йога дає прекрасну можливість
-                    дізнатися, хто ти є.
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Йога - це не просто спортивна практика, це особливий момент,
+                        який ви присвячуєте самому собі. Йога дає прекрасну можливість
+                        дізнатися, хто ти є.
+                    </p>
+                </div>
             </div>
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="pointer" src="img/pointer2.svg" alt="pointer">
                 </div>
                 <div class="imgwrap">
                     <img class="part-photo" src="img/part2.png" alt="photo">
                 </div>
-                <p class="part-text">
-                    Медитація - це не мантри, пахощі і транс. Це знайомство з роботою вашого мозку,
-                    мистецтво управляти своєю увагою і проживати життя у всій її повноті.
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Медитація - це не мантри, пахощі і транс. Це знайомство з роботою вашого мозку,
+                        мистецтво управляти своєю увагою і проживати життя у всій її повноті.
+                    </p>
+                </div>
             </div>
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="pointer" src="img/pointer3.svg" alt="pointer">
                 </div>
                 <div class="imgwrap">
                     <img class="part-photo" src="img/part3.png" alt="photo">
                 </div>
-                <p class="part-text">
-                    Правильне харчування - це не сувора дієта, не відсутність в раціоні смаколиків,
-                    не виснаження самого себе. Це спосіб життя, до якого потрібно підійти усвідомлено.
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Правильне харчування - це не сувора дієта, не відсутність в раціоні смаколиків,
+                        не виснаження самого себе. Це спосіб життя, до якого потрібно підійти усвідомлено.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="section3">
@@ -101,7 +109,9 @@
                 Медитації”, “Курс майстер-класів та консультацій про здорове харчування” та “Курс-конструктор”</span>.
             Кожен з цих курсів допоможе Вам стати більш щасливим та здоровим!
         </p>
-        <button onclick="document.location=''" class="button2">Придбати курс</button>
+        <p class="btwrap">
+            <button onclick="document.location=''" class="button2">Придбати курс</button>
+        </p>
     </div>
 </section>
 
@@ -110,7 +120,7 @@
     <div class="container">
         <h1 class="title">Наші майстри</h1>
         <div class="row instruct-row">
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="instruct" src="img/instr1.png" alt="pointer">
                 </div>
@@ -120,8 +130,8 @@
                     Навчався йоги по Фельденкрайзу на заняттях провідних тренерів.
                 </p>
             </div>
-            <div class="col-4 wrap-part">
-                <p class="part-text2">
+            <div class="col-12 col-sm-4 wrap-part">
+                <p class="part-text2" id="vis">
                     <span class="span5">Міщенко Ксенія <br></span>
                     25 років <br>
                     Курси медитаціі, самостійний розвиток.
@@ -129,8 +139,13 @@
                 <div class="imgwrap">
                     <img class="instruct" src="img/instr2.png" alt="pointer">
                 </div>
+                <p class="part-text2" id="unvis">
+                    <span class="span5">Міщенко Ксенія <br></span>
+                    25 років <br>
+                    Курси медитаціі, самостійний розвиток.
+                </p>
             </div>
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="instruct" src="img/instr3.png" alt="pointer">
                 </div>
@@ -148,50 +163,60 @@
     <div class="container">
         <h1 class="title" id="whywe">Чому саме ми?</h1>
         <div class="row instruct-row">
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="whywe" src="img/why1.png" alt="pointer">
                 </div>
-                <p class="part-text">
-                    Усі інструктори – висококваліфіковані та досвідчені професіонали
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Усі інструктори – висококваліфіковані та досвідчені професіонали
+                    </p>
+                </div>
             </div>
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="whywe" src="img/why2.png" alt="pointer">
                 </div>
-                <p class="part-text">
-                    Комфортні умови проживання та заняття на природі
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Комфортні умови проживання та заняття на природі
+                    </p>
+                </div>
             </div>
-            <div class="col-4 wrap-part">
+            <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
                     <img class="whywe" src="img/why3.png" alt="pointer">
                 </div>
-                <p class="part-text">
-                    Дружня та заспокійлива атмосфера на заняттях
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Дружня та заспокійлива атмосфера на заняттях
+                    </p>
+                </div>
             </div>
         </div>
         <div class="row why2row">
-            <div class="col-2"></div>
-            <div class="col-4 wrap-part" id="whymarg">
+            <div class="col-sm-2"></div>
+            <div class="col-12 col-sm-4 wrap-part" id="whymarg">
                 <div class="imgwrap">
                     <img class="whywe" src="img/why4.png" alt="pointer">
                 </div>
-                <p class="part-text">
-                    Розумна ціна за послуги
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Розумна ціна за послуги
+                    </p>
+                </div>
             </div>
-            <div class="col-4 wrap-part" id="whymarg">
+            <div class="col-12 col-sm-4 wrap-part" id="whymarg">
                 <div class="imgwrap">
                     <img class="whywe" src="img/why5.png" alt="pointer">
                 </div>
-                <p class="part-text">
-                    Продумана до дрібниць програма
-                </p>
+                <div class="textwrap">
+                    <p class="part-text">
+                        Продумана до дрібниць програма
+                    </p>
+                </div>
             </div>
-            <div class="col-2"></div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
 </section>
@@ -359,11 +384,11 @@
         </div>
         <form action="" class="form" method="POST">
             <div class="row form-row">
-                <div class="col-6 name-mail">
+                <div class="col-lg-6 col-sm-12  name-mail">
                     <input type="text" required class="area" name="user-name" placeholder="Ваше ім'я...">
                     <input type="email" required class="area" name="user-email" placeholder="Електронна пошта...">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-sm-12">
                     <textarea type="comment" placeholder="Ваше питання..." required class="area" id="question" name="question"></textarea>
                 </div>
                 <div class="col-12 form-button">
