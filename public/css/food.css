@@ -72,6 +72,13 @@ body{
 	font-size: 25px;
 	font-weight: medium;
 	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание */
+	color: black;
 }
 
 .recepieNameCont {
@@ -139,6 +146,11 @@ body{
 
 	.headerText {
 		font-size: 20px;
+	}
+
+	.main-content {
+		flex-direction: unset;
+		height: 620px;
 	}
 
 	.iteamRecepies {

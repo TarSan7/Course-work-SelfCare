@@ -174,12 +174,12 @@
 </section>
 <script type="text/javascript">
 function viewDetails1(){
-    document.getElementById("moreDetailed1").style.opacity = "1";
+    document.getElementById("moreDetailed1").style.display = "block";
     document.getElementById("buttonDetailed1").style.display = "none";
 };
 
 function viewDetails2(){
-    document.getElementById("moreDetailed2").style.opacity = "1";
+    document.getElementById("moreDetailed2").style.display = "block";
     document.getElementById("buttonDetailed2").style.display = "none";
 };
 </script>
