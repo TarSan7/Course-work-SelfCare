@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRecipeTextsTable extends Migration
+class CreateCommentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,12 @@ class CreateRecipeTextsTable extends Migration
      */
     public function up()
     {
-        Schema::create('recipe_texts', function (Blueprint $table) {
+        Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            $table->string('ingredient');
-            $table->string('process');
             $table->timestamps();
+            $table->string('nickname');
+            $table->string('e_mail');
+            $table->text('text');
         });
     }
 
@@ -28,6 +29,6 @@ class CreateRecipeTextsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('recipe_texts');
+        Schema::dropIfExists('comments');
     }
 }

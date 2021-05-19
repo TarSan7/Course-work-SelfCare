@@ -3,11 +3,7 @@
 @section('title') SelfCare @endsection
 
 @section('style')
-<<<<<<< HEAD
 <link rel="stylesheet" href="css/courses.css ">
-=======
-<link rel="stylesheet" href="css/courses.css">
->>>>>>> 8f17c06efa01047890793ea6db58a8d124060fb3
 @endsection
 
 @section('content')
