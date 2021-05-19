@@ -314,7 +314,6 @@ footer img{
         justify-content: center;
         margin-bottom: 20px;
     } 
-
     .netw{
         justify-content: center;
         margin: 0;
@@ -322,11 +321,24 @@ footer img{
     .footer-number{
         margin-top: 20px;
     }
-
+    .logo-ftr{
+        width: 100px;
+    }
+    .logot-ftr{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    footer .row{
+        display: block;
+    }
     .netw img{
         width: 40px;
         height: auto;
         margin-left: 20px;
+    }
+    .netw .instagram{
+        margin-left: 0;
     }
 
     .netw img:nth-child(2n){
@@ -345,6 +357,7 @@ footer img{
     
     .footer-row{
         align-items: center;
+        justify-content: center;
     }
     .footer-number{
         justify-content: center;

@@ -39,7 +39,7 @@
                             <a class="scroll" href="main">Про нас</a>
                         </li>
                         <li class="item">
-                            <a class="scroll" href="yoga">Йога</a>
+                            <a class="scroll" href="{{ route('yoga') }}">Йога</a>
                         </li>
                         <li class="item">
                             <a class="scroll" href="{{ route('meditation') }}">Медитації</a>
@@ -52,17 +52,17 @@
                         </li>
                     </ul>
                 </div>
-            
+
 
                 @yield('content')
 
                 <footer class="footer">
                     <div class="container">
                         <div class="row footer-row">
-                            <div class="col-3 ">
+                            <div class="col-sm-3 col-12 logot-ftr">
                                 <img class="logo-ftr" src="img/logo-ftr.svg" alt="logo: SelfCare">
                             </div>
-                            <div class="col-md-6 col-9 netw">
+                            <div class="col-sm-6 col-12 netw">
                                 <img onclick="document.location=''" src="img/instagram.svg" alt="facebook" class="instagram">
                                 <img onclick="document.location=''" src="img/facebook.svg" alt="instagram" class="facebook">
                                 <img onclick="document.location=''" src="img/youtube.svg" alt="youtube" class="youtube">
