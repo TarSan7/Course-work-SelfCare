@@ -25,9 +25,9 @@
                 <div class="col-lg-5 col-4"></div>
                 <div class="phone-basket col-4">
                     <img class="phone" src="img/phone.svg" alt="phone">
-                    <img class="basket" src="img/basket.svg" alt="basket">
+                    <a href="{{ route('cardIndex') }}"><img class="basket" src="img/basket.svg" alt="basket"></a>
                     <img class="phone1" src="img/phone1.svg" alt="phone">
-                    <img class="basket1" src="img/basket1.svg" alt="basket">
+                    <a href="{{ route('cardIndex') }}"><img class="basket1" src="img/basket1.svg" alt="basket"></a>
                 </div>
                 <div class="col-1 col-lg-11 burger">
                     <input id="menu-toggle" type="checkbox" />

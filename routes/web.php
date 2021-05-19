@@ -27,10 +27,14 @@ Route::get('/courseInfo{id}', function($id){
     $shedules= $course->find($id)->schedules;
     return view('courseInfo', ['id'=>$id, 'advantages'=>$advantages, 'schedules'=>$shedules]);
 }) -> name('courseInfo');
+
 Route::get('/courses', [MainController::class, 'coursesPage'])->name('courses');
+
 Route::get('/healthyFood', 'App\Http\Controllers\FoodController@getRecipies')->name('foodContainer');
 
 Route::get('/recepie{id}', function($id){
     $par = new App\Http\Controllers\FoodController();
     return $par->getRecipe($id);
 })->name('recepie');
+
+Route::get('/card', 'App\Http\Controllers\CardController@index')->name('cardIndex');
