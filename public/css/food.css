@@ -187,4 +187,26 @@ a:hover {
 	.recepieName{
 		font-size: 20px;
 	}
+
+	/*Добавлено для исправления блока*/
+	.main-content{
+		position: absolute;
+		left: 14%;
+		top: 0;
+	}
+	/*-------------------------------*/
+}
+
+@media (width:576px){
+	/*Добавлено для исправления блока*/
+	.main-content{
+		position: absolute;
+		left: 16%;
+		top: -6%;
+	}
+
+	.main-content-text{
+		height: 600px;
+	}
+	/*-------------------------------*/
 }
