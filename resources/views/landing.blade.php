@@ -16,7 +16,7 @@
         SelfCare - ідеальний інструмент<br>для твого саморозвитку.
     </p>
     <p class="btwrap">
-        <button onclick="document.location=''" class="button">Приєднатися до нас!</button>
+        <button onclick="document.location='courses'" class="button">Приєднатися до нас!</button>
     </p>
 </div>
 </div>
@@ -41,7 +41,7 @@
             </p>
         </div>
         <div class="row but-row">
-            <button onclick="document.location=''" class="button1">Переглянути послуги</button>
+            <button onclick="document.location='courses'" class="button1">Переглянути послуги</button>
         </div>
     </div>
 </section>
@@ -110,7 +110,7 @@
             Кожен з цих курсів допоможе Вам стати більш щасливим та здоровим!
         </p>
         <p class="btwrap">
-            <button onclick="document.location=''" class="button2">Придбати курс</button>
+            <button onclick="document.location='courses'" class="button2">Придбати курс</button>
         </p>
     </div>
 </section>

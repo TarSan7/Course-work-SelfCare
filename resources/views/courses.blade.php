@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location='/courseInfo1'" class="button1">До курсу!</button>
+                        <button onclick="document.location='courseInfo1'" class="button1">До курсу!</button>
                     </p>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location='/courseInfo2'" class="button2">До курсу!</button>
+                        <button onclick="document.location='courseInfo2'" class="button2">До курсу!</button>
                     </p>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location='/courseInfo3'" class="button3">До курсу!</button>
+                        <button onclick="document.location='courseInfo3'" class="button3">До курсу!</button>
                     </p>
                 </div>
             </div>
@@ -260,7 +260,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location='/courseInfo4'" class="button1">До курсу!</button>
+                        <button onclick="document.location='courseInfo4'" class="button1">До курсу!</button>
                     </p>
                 </div>
             </div>
