@@ -76,6 +76,15 @@ ul {
     background-color: #E58776;
 }
 
+#menu-toggle:checked ~ .menu-btn > span::after {
+    background-color: #E58776;
+}
+
+#menu-toggle:checked ~ .menu-btn > span::before {
+    background-color: #E58776;
+}
+
+
 .addColor {
     background: #F9DEC9;
 }
