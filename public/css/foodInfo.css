@@ -49,6 +49,7 @@
 }
 
 .header-gradient {
+    margin-top: 60px;
     text-align: center;
     background-repeat: no-repeat;
     background-position: center bottom 1px;
@@ -100,10 +101,6 @@ ul {
 	align-items: center;
 }
 
-/* .fuckingClass {
-    width:100%;
-} */
-
 .smallBlock p {
     margin-bottom: 0;
 }
@@ -129,7 +126,6 @@ ul {
 .recepie {
     display: flex;
     justify-content: center;
-    margin-top: 25%;
 }
 
 .recepieContent {
@@ -137,9 +133,14 @@ ul {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
+.main-header{
+    height: auto;
+}
 .recepieHeader {
     display: block;
+}
+.recepie{
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -149,10 +150,10 @@ ul {
 }
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 992px) {
 
     .menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
-        background-color: black;
+        background-color: white;
     }
 
     .goldenStar {
@@ -165,7 +166,7 @@ ul {
     }
 
     .fuckingClass {
-        width: 90%;
+        width: 100%;
     }
 
     .recepieContent {
@@ -173,14 +174,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 984px) {
-    .fuckingClass {
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
 
     .reverse {
         display: flex;
@@ -211,10 +205,6 @@ ul {
         font-size: 18px;
     }
 
-    .recepie {
-        margin-top: 130%;
-    }
-
     .reverse {
         display: flex;
         flex-direction: column-reverse;
@@ -238,14 +228,15 @@ ul {
 
 @media screen and (max-width: 576px) {
 
-    .recepie {
-        margin-top: 120%;
+    .main-header{
+        height: auto;
     }
-
     .foodImg {
         width: 100%;
     }
-
+    .main-content{
+        margin-bottom: 110%;
+    }
     .boldText {
         font-size: 24px;
     }
@@ -279,17 +270,6 @@ ul {
         padding: 8%;
     }
 
-    .recepie {
-        margin-top: 130%;
-    }
-}
-
-@media screen and (max-width: 476px) {
-
-    .recepie {
-        margin-top: 100%;
-    }
-
     .goldenStar {
         width: 20px;
     }
@@ -299,13 +279,9 @@ ul {
     }
 
     .smallBlock p {
-        font-size: 15px;
+        font-size: 14px;
     }
-
-}
-
-@media screen and (max-width: 400px) {
-    .recepie {
-        margin-top: 90%;
+    .foodImg{
+        width: 80%;
     }
 }
