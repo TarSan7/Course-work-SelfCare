@@ -1,6 +1,7 @@
 .main-content{
     padding: 0 0 0;
-    margin-top: 80px;
+    margin-top: 50px;
+    max-height: 600px;
     background: rgba(255, 255, 255, 0.8);
 }
 .title{
@@ -328,7 +329,7 @@ form .button3{
 
 @media (max-width: 768px){
     .text{
-        font-size: 20px;
+        font-size: 18px;
         padding: 0 30px 30px 30px;
     }
     .title{
@@ -341,8 +342,11 @@ form .button3{
     .text-place{
         margin: 0;
     }
+    .yoga{
+        margin-top: 0;
+    }
      .text-place .text{
-        margin: 70px 0;
+        margin: 100px 0 130px 0;
         padding: 10px;
     }
     .btwrap{
@@ -353,7 +357,17 @@ form .button3{
     }
 }
 @media (max-width: 576px){
+    .section1{
+        margin-bottom: 50px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .star{
+        width: 15px;
+    }
     .house img{
+        max-width: 300px;
         display: flex;
         padding-top: 30px;
     }
@@ -372,5 +386,24 @@ form .button3{
     }
     .yoga-photo, .meditation-photo, .eat-photo{
         max-width: 250px;
+    }
+    
+    .time-constr, .price-constr, .time-eat, .price-eat, .time-meditation, .price-meditation, .time-yoga, .price-yoga{
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    button, .button1, .button2, .button3{
+        padding: 10px 25px;
+    }
+    .head-row-first .text{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .main-content{
+        margin-left: 10px;
+        max-width: 95%;
+    }
+    .text-place .text, .yoga .text, .meditation .text, .eat .text, .constr .text{
+        font-size: 14px;
     }
 }
