@@ -1,0 +1,232 @@
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 130%;
+color: #000000;
+
+}
+
+.main-header{
+    background-image: none;
+    height: auto;
+    margin-bottom: 8%;
+
+}
+
+.backgroundOfHeader{
+    background-color: #00CC69;
+    position: absolute;
+    width: 100vw;
+    height: 130px;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.main-content h1{
+    margin: 110px auto 70px;
+    text-align: center;
+}
+
+.main-content img{
+    width: 70px;
+}
+
+.wrap{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5.8%;
+}
+
+.adv{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+
+.adv p{
+    margin: 0;
+}
+
+.adv img{
+    margin-right: 6%;
+}
+
+button{
+    display: block;
+    width: 30%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border: 5px solid #00CC69;
+    box-sizing: border-box;
+    border-radius: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
+}
+
+.buttonView{
+    margin-top: 5.8%;
+}
+
+
+.schedule p{
+    width: 60%;
+    margin: 0 auto 2%;
+}
+
+.schedule{
+    background-image: url("../img/forest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.schedule h1{
+    margin-bottom: 4.8%;
+}
+
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+    .schedule p{
+        width: 85%;
+    }
+  }
+  
+  /* md-размер (<=991px) */
+  @media (max-width: 992px) {
+
+        .adv{
+            width: 100%;
+        }        
+  }
+  
+  /* sm-размер (<=768px) */
+  @media (max-width: 768px) { 
+    h1{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    }
+
+    p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .main-content h1{
+        margin-bottom: 40px;
+    }
+
+    .main-content img{
+        width: 50px;
+    }
+
+    
+    .buttonView{
+        margin-top: 6.2%;
+    }
+  }
+  
+  /* xs-размер (<=575px) */
+  @media (max-width: 576px) {
+        p{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 130%;
+        }
+
+        h1{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        .schedule{
+            padding: 20px auto 30px;
+        }
+
+        button{
+            width: 100%;
+            height: 50px;
+            margin: 0;
+        }
+
+        .main-content .col-12{
+            height:auto
+        }
+
+        .main-content h1{
+            margin-bottom: 5%;
+        }
+
+        .wrap{
+            margin-bottom: 5%;
+        }
+
+        .schedule p{
+            width: 100%;
+            margin-bottom: 5%;
+        }
+
+        .adv{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .buutonView{
+            margin-top: 0;
+        }
+
+        .adv img {
+            margin-right: 2%;
+        }
+
+        .buttonView{
+            width: 100%;
+        }
+
+        .main-content h1{
+            margin-top: 20%;
+        }
+
+        .main-header{
+            margin-bottom: 20%;
+        }
+        
+  }
+
+ 
+  

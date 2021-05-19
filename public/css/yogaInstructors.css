@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.firstRow{
+    display:flex;
+}
+
+.backgroundOfHeader{
+    background-color: #00CC69;
+}
+
+.menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+    background-color:  #00CC69;
+}
+
+
+button{
+    display: block;
+    width: 30%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border: 5px solid #00CC69;
+    box-sizing: border-box;
+    border-radius: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
+}
+
+button:hover{
+    background:rgb(133, 255, 196, 0.3);;
+    transition: all 0.5s linear;
+}
+
+.boldText{
+    font-weight: 600;
+}
+
+.row{
+    justify-content: space-between;
+}
+
+.instructors p{
+    width: 100%;
+    font-size: 21px;
+}
+
+#moreDetailed1, #moreDetailed2{
+    /*opacity:0;
+    transition: all 1s linear;*/
+    display: none;
+}
+
+#buttonDetailed1, #buttonDetailed2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #949494;
+    border: none;
+    background-color: transparent;
+    background-image: url('../img/detailedButtonIcon.png');
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    width: 16%;
+    /*height: 26%;*/
+    height: 85px;
+    display: flex;
+    align-items:top;
+    justify-content: center;
+}
+
+.firstInstructor, .secondInstructor{
+    background-image: url('../img/bgInstrYoga1.png');
+    height: 460px;
+}
+
+.secondInstructor{
+    background-image: url('../img/bgInstrYoga2.png');
+    height: 380px;
+}
+
+.firstInstructor{
+    margin-bottom: 5%;
+}
+
+.mainInfoAboutInstr{
+    margin-bottom: 2%;
+}
+
+.instructors h1{
+    margin-bottom: 4.5%;
+}
+
+
+.contact{
+    background: url('../img/form.png') no-repeat center;
+    background-size:cover;
+    margin-top: 80px;
+}
+.form-title{
+    display: flex;
+    justify-content: center;
+}
+.title2{
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 650px;
+    margin-bottom: 50px;
+}
+.area{
+    background: #FFFDFD;
+    border: 1px solid #949494;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 95%;
+    margin-bottom: 40px;
+    padding: 20px 50px;
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+#question{
+    height: 200px;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+.button3{
+    padding: 25px 100px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(133, 226, 255, 0);
+    border-radius: 35px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00CC69;
+    color: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 60px;
+    padding: initial;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .firstInstructor{
+        height: 510px;
+    }
+
+    .secondInstructor {
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    button{
+        width: 48%; 
+    }
+
+    .firstInstructor, .secondInstructor{
+        background-image: none;
+    }
+
+    .mainInfoAboutInstr{
+        height: 285px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #buttonDetailed1, #buttonDetailed2{
+        height: 85px;
+        }
+
+    .details1{
+            margin: 0 -10% 0 -75%;
+            width: 175%;
+    }
+
+    .details2{
+        margin: 0 0 0 0;
+        width: 175%;
+    }
+
+    .firstInstructor{
+        margin-bottom: 60px;
+    }
+
+    .moreDetailed2{
+        margin-bottom: 20%;
+    }
+
+    .instructors{
+        background-image: url(../img/bgInstrYoga\(992-768\).png);
+        background-repeat: no-repeat;
+        /*background-size: cover;*/
+        width: 100%;
+        height:1250px;
+    }
+
+    .firstInstructor{
+        height: 560px;
+    }
+
+    .secondInstructor{
+        height: 540px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    
+    button{
+        width:65%;
+    }
+
+    .instructors{
+        background: url(../img/bgInstrYoga\(768-576\).png);
+        height: 1155px;
+    }
+
+    .instructors p{
+        font-size: 18px;
+    }
+
+    .mainInfoAboutInstr{
+        height: 254px;
+        font-size: 16px !important;
+    }
+
+    .details1{
+        margin: 8% 0 0 -112%;
+        width: 212%;
+    }
+
+    .details2{
+        width: 212%;
+    }
+
+    .firstInstructor{
+        margin-bottom: 35px;;
+    }
+
+    .title2{
+        padding-top: 36px;
+    }
+
+    .button3{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (width: 768px){
+
+    .details1{
+        margin: 0 -10% 0 -74%;
+        width: 173%;
+    }
+
+    .details2{
+        width: 173%;
+    }
+
+    .mainInfoAboutInstr {
+        margin-bottom: 27px;
+    }
+
+    
+}
+
+@media screen and (width: 576px){
+    .col-sm-6{
+        max-width: 100%;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+
+    button{
+        width: 90%;
+    }
+
+    .instructors p{
+        font-size: 15px;
+        line-height: 130%;
+    }
+
+    .instructors img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .firstInstructor .row{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .mainInfoAboutInstr{
+        height: auto;
+    }
+
+    .secondInstructor .row{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .details1, .details2{
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    .firstInstructor, .secondInstructor{
+        margin-bottom: 300px;
+    }
+
+    #buttonDetailed1, #buttonDetailed2{
+        display: none;
+    }
+
+    #moreDetailed1, #moreDetailed2{
+        display: block;
+    }
+
+    .instructors{
+        height: auto;
+        background-image: none;
+    }
+
+    .firstInstructor{
+        height: 645px;
+    }
+
+    .secondInstructor{
+        height: 570px;
+    }
+
+    .firstInstructor, .secondInstructor{
+        background-color: #85FFC4;
+    }
+
+    .button3{
+        width: 90%;
+        margin-bottom: 48px;
+        height: 62px;
+    }
+
+    .title2{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .area{
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 820px;
+    }
+}
+
+
+@media screen and (width: 992px){
+    .details1{
+        margin: 0 -10% 0 -51%;
+        width: 150%;
+    }
+
+    .details2{
+        width: 151%;
+    }
+
+    .firstInstructor {
+        margin-bottom: 35px;
+    }
+}
+
+
+
+
