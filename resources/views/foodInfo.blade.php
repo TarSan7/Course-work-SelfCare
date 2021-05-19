@@ -10,7 +10,7 @@
 @section('content')
     <div class="main-content col-12 col-lg-12 mt-5">
         <div class="fuckingClass">
-        <h1 class="header-gradient mt-3 mb-5">{{ $recipieIteam->recipe->title }}</h1>
+        <h1 class="header-gradient">{{ $recipieIteam->recipe->title }}</h1>
 	    <div class="main-content-text reverse mt-5">
             <img src="img/Big{{ $recipieIteam->recipe->img }}" alt="food" class="foodImg">
             <div class="recepiText">
@@ -38,10 +38,11 @@
 </div>
 </div>
 </div>
-</header>
 <div class="redlineBlock"></div>
+</header>
 
-<section class="container">
+<section>
+<div class="container">
 <div class="recepie">
         <div class="howToCook recepieContent">
             <h1 class="header-gradient recepieHeader">Приготування</h1>
@@ -53,5 +54,6 @@
             @endfor
         </div>
     </div>
+</div>
 </section>
 @endsection
