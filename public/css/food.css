@@ -25,6 +25,18 @@ body{
     padding-top: 4%;
 }
 
+.menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+    background-color:  white !important;
+}
+
+#menu-toggle:checked ~ .menu-btn > span::after {
+    background-color: white !important;
+}
+
+#menu-toggle:checked ~ .menu-btn > span::before {
+    background-color: white !important;
+}
+
 .whyImportant {
 	background-color: #E58776;
 }
@@ -161,7 +173,7 @@ a:hover {
 		width: 80%;
 	}
 	button{
-		font-size: 14px;
+		font-size: 14px !important; 
 		padding: 5px;
 	}
 	.mycol {

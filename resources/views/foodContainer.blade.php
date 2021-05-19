@@ -98,80 +98,8 @@
     </div>
 </section>
 
-<section class="instructors">
-    <h1>Наші інструктори</h1>
-    <section class="firstInstructor">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <img src="img/Instr1Photo.png" alt="">
-                </div>
-                <div class="col">
-                <p class="mainInfoAboutInstr"><span class="boldText">Злотник Марія</span><br>
-				Вік: 24 роки.<br>
-Освіта: міжнародна школа фітнесу та дієтології.<br>
-Знання мов: російська — вільно, українська — вільно; англійська — середній.
-                </p>
-                <button value="Детальніше" onmousedown="viewDetails1()" id="buttonDetailed1">Детальніше</button>
-                <p id="moreDetailed1">
-				Тренер, консультант по правильному харчуванню з досвідом 3 роки. Володіє основами анатомії, физіології, дієтології. Допомагає змінити харчові звички, навчитися харчуватися смачно і правильно і при цьому регулювати вагу. Навчає нормалізувати вагу без шкоди для здоров'я. Індивідуальний підхід до розробки раціону на 21 день, щоденні звіти, мотивація і контроль для досягнення мети.
-                </p> 
-                </div>
-            </div>
-        </div>
-    </section> 
-    <section class="secondInstructor">
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                <p class="mainInfoAboutInstr"><span class="boldText">Шовкун Анатолій</span><br>
-				Вік: 27 років.<br>
-Освіта: інститут фізкультури і спорту.<br>
-Знання мов: російська — вільно, українська — вільно; англійська — середній.
-                </p>
-                <button value="Детальніше" onmousedown="viewDetails2()" id="buttonDetailed2">Детальніше</button>
-                <p id="moreDetailed2">
-                        Практикує медитацію з 2016 року, в традиціях 
-                        тибетського буддизму - з 2018. Захоплюючись 
-                        філософією адвайта-веданти і інших шкіл, неодноразово 
-                        подорожувала в Варанасі для пошуку методів, як навчитися 
-                        розуміти себе та інших. Автор програми «Відкриття духовного 
-                        серця», проводить як групові так і індивідуальні заняття. 
-                        Ціль занять -  розслабити тіло, розум, збільшити здатність 
-                        до концентрації, зміцнення свого розуму і набуття контролю 
-                        над ним.
-                </p> 
-                </div>
-                <div class="col-4">
-                        <img src="img/Instr2Photo.png" alt="">
-                    </div>
-                </div>
-        </div>
-    </section>    
-</section>
-
-<section class="contact">
-    <div class="container">
-        <div class="form-title">
-            <h1 class="title2">Вже проходили курс?<br>Залиште Ваш відгук</h1>
-        </div>
-        <form action="" class="form" method="POST">
-            <div class="row form-row">
-                <div class="col-6 name-mail">
-                    <input type="text" required class="area" name="user-name" placeholder="Ваше ім'я...">
-                    <input type="email" required class="area" name="user-email" placeholder="Рік проходження курсу...">
-                </div>
-                <div class="col-6">
-                    <textarea type="comment" placeholder="Відгук..." required class="area" id = "question" name="question"></textarea>
-                </div>
-                <div class="col-12 form-button">
-                    <button type="submit" class="button3">Надіслати</button>
-                </div>
-            </div>
-        </form>
-    </div>
-    </div>
-</section>
+@include("/includes/instructors3")
+@include("/includes/formComment")
 <script type="text/javascript">
 function viewDetails1(){
     document.getElementById("moreDetailed1").style.display = "block";

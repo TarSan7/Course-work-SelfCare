@@ -14,7 +14,7 @@
                     <textarea type="comment" placeholder="Відгук..." required class="area" id = "question" name="question"></textarea>
                 </div>
                 <div class="col-12 form-button">
-                    <button type="submit" class="button3">Надіслати</button>
+                    <button type="submit" class="btn3 button3">Надіслати</button>
                 </div>
             </div>
         </form>

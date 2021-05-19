@@ -21,9 +21,11 @@
                     </div>
                 @endfor
                 </div>
-                <form action="#" target="_blank">
-                    <button>Придбати курс!</button>
-                </form>
+                @if($id!=4)
+                    <form action="#" target="_blank">
+                        <button>Придбати курс!</button>
+                    </form>
+                @endif    
             </div>
         </div>
 </header>
@@ -47,8 +49,11 @@
 @if($id!=4)
     @include("includes/instructors$id")
     <div class="container">
-        <button class="buttonView"> Подивитися курс </button>
+        <button class="buttonView" onclick="document.location='/{{$en_name}}'"> Подивитися курс </button>
     </div>
+@endif
+@if($id==4)
+    @include("includes/choice")
 @endif
 @include("includes/formQuestion")
 

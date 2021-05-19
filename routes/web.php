@@ -25,7 +25,8 @@ Route::get('/courseInfo{id}', function($id){
     $course = new Course();
     $advantages = $course->find($id)->advantages;
     $shedules= $course->find($id)->schedules;
-    return view('courseInfo', ['id'=>$id, 'advantages'=>$advantages, 'schedules'=>$shedules]);
+    $en_name = $course->find($id)->en_name;
+    return view('courseInfo', ['id'=>$id, 'advantages'=>$advantages, 'schedules'=>$shedules, 'en_name'=>$en_name]);
 }) -> name('courseInfo');
 Route::get('/courses', [MainController::class, 'coursesPage'])->name('courses');
 Route::get('/healthyFood', 'App\Http\Controllers\FoodController@getRecipies')->name('foodContainer');
