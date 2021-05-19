@@ -21,7 +21,7 @@ Route::get('/meditation', [MainController::class, 'meditationPage']) -> name('me
 Route::get('/courses', [MainController::class, 'coursesPage'])->name('courses');
 Route::get('/healthyFood', 'App\Http\Controllers\FoodController@getRecipies')->name('foodContainer');
 
-Route::get('/recepie{id}', function($recepieId=id){
+Route::get('/recepie{id}', function($id){
     $par = new App\Http\Controllers\FoodController();
-    return $par->getRecipe($recepieId);
+    return $par->getRecipe($id);
 })->name('recepie');

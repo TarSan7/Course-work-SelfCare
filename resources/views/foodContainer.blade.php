@@ -3,8 +3,8 @@
 @section('title') SelfCare @endsection
 
 @section('style')
-<link rel="stylesheet" href="../css/meditation.css">
-<link rel="stylesheet" href="../css/food.css">
+<link rel="stylesheet" href="css/meditation.css">
+<link rel="stylesheet" href="css/food.css">
 @endsection
 
 @section('content')
