@@ -39,7 +39,7 @@
                             <a class="scroll" href="main">Про нас</a>
                         </li>
                         <li class="item">
-                            <a class="scroll" href="?page=gallery">Йога</a>
+                            <a class="scroll" href="yoga">Йога</a>
                         </li>
                         <li class="item">
                             <a class="scroll" href="{{ route('meditation') }}">Медитації</a>
