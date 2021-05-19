@@ -54,24 +54,22 @@
 			<div class="row justify-content-space-between">
 				@foreach($recipies as $el)
 				<div class="col-sm-6 col-md-6 col-lg-4 mt-5 mycol">
-					<a href="{{ route('recepie', $el->id) }}"class="recepieName">
-						<div class="iteamRecepies col-lg-12 pt-3">
-							<div class="recepieNameCont mt-3 mb-3">
-							{{ $el->title }}
-							</div>
-							<img src="img/{{ $el->img }}" alt="clean" class="recepieImg mb-4">
-							<p class="recepieText">Час: {{ $el->time }} хвилин</p>
-							<div class="reiting">
-								<p class="mr-3 recepieText">Рейтинг: </p>
-								<div class="stars">
-									@for ($i = 0; $i < $el->reiting; $i++)
-									<img src="img/goldenStar.png" alt="star" class="goldenStar">
-									@endfor
-								</div>
-							</div>
-							<p class="mb-3 recepieText">Cкладність: {{ $el->Complexity }}</p>
-						</div>
-					</a>
+					<div class="iteamRecepies col-lg-12 pt-3">
+                        <div class="recepieNameCont mt-3 mb-3">
+						    <a href="{{ route('recepie', $el->id) }}"class="recepieName">{{ $el->title }}</a>
+                        </div>
+						<img src="img/{{ $el->img }}" alt="clean" class="recepieImg mb-4">
+						<p class="recepieText">Час: {{ $el->time }} хвилин</p>
+						<div class="reiting">
+                            <p class="mr-3 recepieText">Рейтинг: </p>
+						    <div class="stars">
+						        @for ($i = 0; $i < $el->reiting; $i++)
+						        <img src="img/goldenStar.png" alt="star" class="goldenStar">
+						        @endfor
+						    </div>
+					    </div>
+						<p class="mb-3 recepieText">Cкладність: {{ $el->Complexity }}</p>
+					</div>
 				</div>
 				@endforeach
 			</div>
