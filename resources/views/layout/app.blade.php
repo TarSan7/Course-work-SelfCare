@@ -62,7 +62,7 @@
                             <div class="col-3 ">
                                 <img class="logo-ftr" src="img/logo-ftr.svg" alt="logo: SelfCare">
                             </div>
-                            <div class="col-6 netw">
+                            <div class="col-md-6 col-9 netw">
                                 <img onclick="document.location=''" src="img/instagram.svg" alt="facebook" class="instagram">
                                 <img onclick="document.location=''" src="img/facebook.svg" alt="instagram" class="facebook">
                                 <img onclick="document.location=''" src="img/youtube.svg" alt="youtube" class="youtube">

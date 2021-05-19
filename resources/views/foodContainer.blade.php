@@ -3,8 +3,8 @@
 @section('title') SelfCare @endsection
 
 @section('style')
-<link rel="stylesheet" href="../css/meditation.css">
-<link rel="stylesheet" href="../css/food.css">
+<link rel="stylesheet" href="css/meditation.css">
+<link rel="stylesheet" href="css/food.css">
 @endsection
 
 @section('content')
@@ -25,24 +25,24 @@
         <h1 class="header pb-4">Правильне харчування...</h1>
 		<div class="row pb-8">
 			<div class="iteam col-sm-12 col-md-6 col-lg-4">
-				<img src="../img/smiley 1.png" alt="smile" class="iteamImg">
+				<img src="img/smiley 1.png" alt="smile" class="iteamImg">
 				<p class="text mt-3">Запобігає появі депресії</p>
 			</div>
 			<div class="iteam col-sm-12 col-md-6 col-lg-4">
-				<img src="../img/clean 1.png" alt="clean" class="iteamImg">
+				<img src="img/clean 1.png" alt="clean" class="iteamImg">
 				<p class="text mt-3">Робить вас гарнішими</p>
 			</div>
 			<div class="iteam col-sm-12 col-md-12 col-lg-4">
-				<img src="../img/immune-system 1.png" alt="immune-system " class="iteamImg">
+				<img src="img/immune-system 1.png" alt="immune-system " class="iteamImg">
 				<p class="text mt-3">Підтримує  імунітет</p>
 			</div>
 			<div class="col-lg-2"></div>
 			<div class="iteam col-sm-12 col-md-6 col-lg-4">
-				<img src="../img/moon 1.png" alt="moon" class="iteamImg">
+				<img src="img/moon 1.png" alt="moon" class="iteamImg">
 				<p class="text mt-3">Важливий фактор<br> здорового сна</p>
 			</div>
 			<div class="iteam col-sm-12 col-md-6 col-lg-4">
-				<img src="../img/muscles 1.png" alt="muscles" class="iteamImg">
+				<img src="img/muscles 1.png" alt="muscles" class="iteamImg">
 				<p class="text mt-3">Допомогає залишатися<br>у формі</p>
 			</div>
 			<div class="col-lg-2"></div>
@@ -58,13 +58,13 @@
                         <div class="recepieNameCont mt-3 mb-3">
 						    <a href="{{ route('recepie', $el->id) }}"class="recepieName">{{ $el->title }}</a>
                         </div>
-						<img src="../img/{{ $el->img }}" alt="clean" class="recepieImg mb-4">
+						<img src="img/{{ $el->img }}" alt="clean" class="recepieImg mb-4">
 						<p class="recepieText">Час: {{ $el->time }} хвилин</p>
 						<div class="reiting">
                             <p class="mr-3 recepieText">Рейтинг: </p>
 						    <div class="stars">
 						        @for ($i = 0; $i < $el->reiting; $i++)
-						        <img src="../img/goldenStar.png" alt="star" class="goldenStar">
+						        <img src="img/goldenStar.png" alt="star" class="goldenStar">
 						        @endfor
 						    </div>
 					    </div>
@@ -79,19 +79,19 @@
     <div class="container">
         <h1>Що Ви отримаєте від курсу?</h1>
         <div class="punct">
-            <img src="../img/starIcon.png" alt="">
+            <img src="img/starIcon.png" alt="">
             <p>Навчитеся готувати смачні, корисні та легкі страви</p>
         </div>
         <div class="punct">
-            <img src="../img/starIcon.png" alt="">
+            <img src="img/starIcon.png" alt="">
             <p>Дізнаєтеся більше про харчування в цілому та його вплив на наше життя та здоров’я</p>
         </div>
         <div class="punct">
-            <img src="../img/starIcon.png" alt="">
+            <img src="img/starIcon.png" alt="">
             <p>Проведете час із цікавими людьми та професіоналами своєї справи</p>
         </div>
         <div class="punct punct-last">
-            <img src="../img/starIcon.png" alt="">
+            <img src="img/starIcon.png" alt="">
             <p>Отримаєте відповіді на всі Ваші питання щодо здорового харчування від наших інструкторів</p>
         </div>
         <button>Подивитися курс правильного харчування</button>
@@ -104,7 +104,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <img src="../img/Instr1Photo.png" alt="">
+                    <img src="img/Instr1Photo.png" alt="">
                 </div>
                 <div class="col">
                 <p class="mainInfoAboutInstr"><span class="boldText">Злотник Марія</span><br>
@@ -143,7 +143,7 @@
                 </p> 
                 </div>
                 <div class="col-4">
-                        <img src="../img/Instr2Photo.png" alt="">
+                        <img src="img/Instr2Photo.png" alt="">
                     </div>
                 </div>
         </div>

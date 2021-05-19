@@ -256,6 +256,7 @@ footer img{
     }
 
     .footer-row{
+        justify-content: space-between;
         align-items: flex-start;
     }
 }
@@ -274,6 +275,12 @@ footer img{
         margin-right: 20px;
         width: 45px;
         height: 45px;
+    }
+    .footer-row{
+        justify-content: space-between;
+    }
+    .netw img{
+        margin-left: 20px;
     }
      
 }
@@ -310,17 +317,20 @@ footer img{
 
     .netw{
         justify-content: center;
-        margin-bottom: 20px;
+        margin: 0;
+    }
+    .footer-number{
+        margin-top: 20px;
     }
 
     .netw img{
-        width: 50px;
+        width: 40px;
         height: auto;
+        margin-left: 20px;
     }
 
-    
     .netw img:nth-child(2n){
-        width: 40px;
+        width: 30px;
         height: auto;
     }
 
@@ -333,7 +343,9 @@ footer img{
         height: 1.8px;
     }
     
-
+    .footer-row{
+        align-items: center;
+    }
     .footer-number{
         justify-content: center;
     }
