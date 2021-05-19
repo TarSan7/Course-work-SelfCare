@@ -47,7 +47,7 @@ button{
 }
 
 button:hover{
-    background:rgb(153, 231, 255, 0.5);;
+    background:rgb(249,222,221, 0.5);;
     transition: all 0.5s linear;
 }
 
