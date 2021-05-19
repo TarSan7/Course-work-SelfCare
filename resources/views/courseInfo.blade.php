@@ -2,7 +2,9 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') ../css/courseInfo.css @endsection
+@section('style')
+<link rel="stylesheet" href="css/courseInfo.css">
+  @endsection
 
 
 @section('content')

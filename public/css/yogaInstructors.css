@@ -19,6 +19,14 @@ img{
     background-color:  #00CC69;
 }
 
+#menu-toggle:checked ~ .menu-btn > span::after {
+    background-color: #00CC69;
+}
+
+#menu-toggle:checked ~ .menu-btn > span::before {
+    background-color: #00CC69;
+}
+
 
 button{
     display: block;
@@ -175,6 +183,18 @@ button:hover{
 
     .firstInstructor, .secondInstructor{
         background-image: none;
+    }
+
+    .menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+        background-color:white;
+    }
+    
+    #menu-toggle:checked ~ .menu-btn > span::after {
+        background-color: white;
+    }
+    
+    #menu-toggle:checked ~ .menu-btn > span::before {
+        background-color: white;
     }
 
     .mainInfoAboutInstr{
