@@ -499,7 +499,18 @@ button:hover{
     .container{
         width: 90%;
     }
-
+    .main-header{
+        height: 710px;
+    }
+    .main-content{
+        height: 622px;
+    }
+    .offer{
+        padding: 10px;
+    }
+    .offer p{
+        font-size: 16px;
+    }
     h1{
         font-size: 25px;
         line-height: 30px;
@@ -514,15 +525,15 @@ button:hover{
         font-size: 18px;
         line-height: 130%;
     }
-
+    .typesOfYoga p{
+        font-size: 16px;
+    }
     button{
         width: 90%;
     }
 
     .main-header{
         background-image: url(../img/mainScreenYoga\(576\).png);
-        height: 910px;
-        
     }
 
     .punct img{
@@ -616,36 +627,12 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 820px;
     }
 }
 
-@media screen and (max-width: 485px) {
-    .offer{
-        padding: 1% 0 0 auto;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .offer{
-        padding: 0;
-        padding-top: 1%;
-        padding-bottom: 20%;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .offer{
-        padding: 0;
-        padding-top: 1%;
-    }
-}
 
 @media screen and (width: 992px){
-    .offer{
-        width: 100%;
-        padding-bottom: 34%;
-    }
+    
 
     .details1{
         margin: 0 -10% 0 -51%;

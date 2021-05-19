@@ -14,7 +14,7 @@
                 <div class=wrap>
                 @for($i=0; $i<6; $i++)
                     <div class="adv">
-                        <img src="/img/iconNumber{{$i+1}}.png" alt="">
+                        <img src="img/iconNumber{{$i+1}}.png" alt="">
                         <p>
                             {{$advantages[$i]->description}}
                         </p>

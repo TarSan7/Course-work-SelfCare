@@ -12,8 +12,7 @@ body{
 }
 
 .main-content-text {
-	opacity: 0.6;
-	background: #FFFFFF; /* Цвет фона */
+	background: rgb(255, 255, 255, 0.6); /* Цвет фона */
 	padding: 5px; /* Поля вокруг текста */
     width: 80%;
     margin-top: 10%;
@@ -131,23 +130,17 @@ a:hover {
 	}
 
 	.goldenStar {
-        width: 22px;
+        width: 15px;
     }
 
 	.recepieText {
 		font-size: 18px;
 	}
-}
-
-@media screen and (max-width: 765px) {
-	.goldenStar {
-        width: 19px;
-	}
-
 	.recepieName {
 		font-size: 22px;
 	}
 }
+
 
 @media screen and (max-width: 575px) {
 
@@ -196,9 +189,9 @@ a:hover {
 	.header {
 		font-size: 24px;
 	}
-
+	
 	.text {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.iteamRecepies {
