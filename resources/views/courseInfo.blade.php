@@ -30,17 +30,26 @@
 <section class="schedule">
     <div class="container">
         <h1>Розклад курсу</h1>
+        @if($id!=4)
             @for($i=0; $i<7; $i++)
                 <p>
                     {{$schedules[$i]->description}}                
                 </p>
             @endfor
+         @endif   
+         @if($id==4)
+         <p class="center">
+               {{$schedules[0]->description}}                
+        </p>
+         @endif
     </div>
 </section>
-@include("includes/instructors$id")
-<div class="container">
-    <button class="buttonView"> Подивитися курс </button>
-</div>
+@if($id!=4)
+    @include("includes/instructors$id")
+    <div class="container">
+        <button class="buttonView"> Подивитися курс </button>
+    </div>
+@endif
 <section class="contact">
     <div class="container">
         <div class="form-title">
