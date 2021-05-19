@@ -16,6 +16,15 @@ img{
     background-color:  #0AC6FF;
 }
 
+#menu-toggle:checked ~ .menu-btn > span::after {
+    background-color: #0AC6FF;
+}
+
+#menu-toggle:checked ~ .menu-btn > span::before {
+    background-color: #0AC6FF;
+}
+
+
 
 .firstRow{
     display:flex;
@@ -182,6 +191,18 @@ button:hover{
     .firstInstructor, .secondInstructor{
         background-image: none;
         height: 520px;
+    }
+
+    .menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+        background-color:white;
+    }
+    
+    #menu-toggle:checked ~ .menu-btn > span::after {
+        background-color: white;
+    }
+    
+    #menu-toggle:checked ~ .menu-btn > span::before {
+        background-color: white;
     }
 
     .mainInfoAboutInstr{

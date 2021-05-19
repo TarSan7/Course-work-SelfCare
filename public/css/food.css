@@ -8,12 +8,11 @@ body{
 }
 
 .main-header {
-	background: url(../img/image\ 5.svg) no-repeat center;
+	background: url(../img/image\ 5.svg) no-repeat center center;
 }
 
 .main-content-text {
-	opacity: 0.6;
-	background: #FFFFFF; /* Цвет фона */
+	background: rgb(255, 255, 255, 0.6); /* Цвет фона */
 	padding: 5px; /* Поля вокруг текста */
     width: 80%;
     margin-top: 10%;
@@ -24,6 +23,18 @@ body{
 .headerText {
     font-size: 24px;
     padding-top: 4%;
+}
+
+.menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+    background-color:  white !important;
+}
+
+#menu-toggle:checked ~ .menu-btn > span::after {
+    background-color: white !important;
+}
+
+#menu-toggle:checked ~ .menu-btn > span::before {
+    background-color: white !important;
 }
 
 .whyImportant {
@@ -131,39 +142,40 @@ a:hover {
 	}
 
 	.goldenStar {
-        width: 22px;
+        width: 15px;
     }
 
 	.recepieText {
 		font-size: 18px;
 	}
-}
-
-@media screen and (max-width: 765px) {
-	.goldenStar {
-        width: 19px;
-	}
-
 	.recepieName {
 		font-size: 22px;
 	}
 }
 
+
 @media screen and (max-width: 575px) {
 
 	.headerText {
-		font-size: 20px;
+		font-size: 16px;
 	}
-
+	.text{
+		font-size: 18px;
+	}
 	.main-content {
 		flex-direction: unset;
-		height: 620px;
+		height: auto;
 	}
-
+	.header{
+		font-size: 22px;
+	}
 	.iteamRecepies {
 		width: 80%;
 	}
-
+	button{
+		font-size: 14px !important; 
+		padding: 5px;
+	}
 	.mycol {
 		display: flex;
     	justify-content: center;
@@ -172,37 +184,7 @@ a:hover {
 	.container {
 		width: 90%;
 	}
-
-}
-
-@media screen and (max-width: 500px) {
-
-	.header {
-		font-size: 26px;
-	}
-
-	.text {
+	.recepieName{
 		font-size: 20px;
 	}
-
-	.iteamRecepies {
-		width: 90%;
-	}
-
-}
-
-@media screen and (max-width: 400px) {
-
-	.header {
-		font-size: 24px;
-	}
-
-	.text {
-		font-size: 14px;
-	}
-
-	.iteamRecepies {
-		width: 90%;
-	}
-
 }

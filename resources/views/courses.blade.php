@@ -3,7 +3,11 @@
 @section('title') SelfCare @endsection
 
 @section('style')
+<<<<<<< HEAD
 <link rel="stylesheet" href="css/courses.css ">
+=======
+<link rel="stylesheet" href="css/courses.css">
+>>>>>>> 8f17c06efa01047890793ea6db58a8d124060fb3
 @endsection
 
 @section('content')
@@ -106,7 +110,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location=''" class="button1">До курсу!</button>
+                        <button onclick="document.location='/courseInfo1'" class="button1">До курсу!</button>
                     </p>
                 </div>
             </div>
@@ -157,7 +161,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location=''" class="button2">До курсу!</button>
+                        <button onclick="document.location='/courseInfo2'" class="button2">До курсу!</button>
                     </p>
                 </div>
             </div>
@@ -207,7 +211,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location=''" class="button3">До курсу!</button>
+                        <button onclick="document.location='/courseInfo3'" class="button3">До курсу!</button>
                     </p>
                 </div>
             </div>
@@ -224,7 +228,7 @@
                         <img src="img/yogaPhoto.png" alt="" class="yoga-photo">
                         <img src="img/meditationPhoto.png" alt="" class="meditation-photo">
                         <img src="img/eatPhoto.png" alt="" class="eat-photo">
-                        
+
                     </div>
                 </div>
                 <div class="col-lg-1"></div>
@@ -260,7 +264,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-5">
                     <p class="btwrap">
-                        <button onclick="document.location=''" class="button1">До курсу!</button>
+                        <button onclick="document.location='/courseInfo4'" class="button1">До курсу!</button>
                     </p>
                 </div>
             </div>
@@ -268,26 +272,5 @@
     </div>
 </section>
 
-<section class="section7">
-    <div class="container">
-        <div class="form-title">
-            <h1 class="title2">З’явилися питання? Зв’яжіться з нами заповнивши форму.</h1>
-        </div>
-        <form action="" class="form" method="POST">
-            <div class="row form-row">
-                <div class="col-6 name-mail">
-                    <input type="text" required class="area" name="user-name" placeholder="Ваше ім'я...">
-                    <input type="email" required class="area" name="user-email" placeholder="Електронна пошта...">
-                </div>
-                <div class="col-6">
-                    <textarea type="comment" placeholder="Ваше питання..." required class="area" id="question" name="question"></textarea>
-                </div>
-                <div class="col-12 form-button">
-                    <button type="submit" class="button3">Надіслати</button>
-                </div>
-            </div>
-        </form>
-    </div>
-    </div>
-</section>
+@include('/includes/formQuestion')
 @endsection

@@ -2,7 +2,9 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') ../css/courseInfo.css @endsection
+@section('style')
+<link rel="stylesheet" href="css/courseInfo.css">
+  @endsection
 
 
 @section('content')
@@ -12,54 +14,47 @@
                 <div class=wrap>
                 @for($i=0; $i<6; $i++)
                     <div class="adv">
-                        <img src="/img/iconNumber{{$i+1}}.png" alt="">
+                        <img src="img/iconNumber{{$i+1}}.png" alt="">
                         <p>
                             {{$advantages[$i]->description}}
                         </p>
                     </div>
                 @endfor
                 </div>
-                <form action="yoga" target="_blank">
-                    <button>Придбати курс!</button>
-                </form>
+                @if($id!=4)
+                    <form action="#" target="_blank">
+                        <button>Придбати курс!</button>
+                    </form>
+                @endif    
             </div>
         </div>
 </header>
 <section class="schedule">
     <div class="container">
         <h1>Розклад курсу</h1>
+        @if($id!=4)
             @for($i=0; $i<7; $i++)
                 <p>
                     {{$schedules[$i]->description}}                
                 </p>
             @endfor
+         @endif   
+         @if($id==4)
+         <p class="center">
+               {{$schedules[0]->description}}                
+        </p>
+         @endif
     </div>
 </section>
-@include("includes/instructors$id")
-<div class="container">
-    <button class="buttonView"> Подивитися курс </button>
-</div>
-<section class="contact">
+@if($id!=4)
+    @include("includes/instructors$id")
     <div class="container">
-        <div class="form-title">
-            <h1 class="title2">Вже проходили курс?<br>Залиште Ваш відгук</h1>
-        </div>
-        <form action="" class="form" method="POST">
-            <div class="row form-row">
-                <div class="col-lg-6 col-sm-12 name-mail">
-                    <input type="text" required class="area" name="user-name" placeholder="Ваше ім'я...">
-                    <input type="email" required class="area" name="user-email" placeholder="Рік проходження курсу...">
-                </div>
-                <div class="col-lg-6 col-sm-12">
-                    <textarea type="comment" placeholder="Відгук..." required class="area" id = "question" name="question"></textarea>
-                </div>
-                <div class="col-12 form-button">
-                    <button type="submit" class="button3">Надіслати</button>
-                </div>
-            </div>
-        </form>
+        <button class="buttonView" onclick="document.location='/{{$en_name}}'"> Подивитися курс </button>
     </div>
-    </div>
-</section>
+@endif
+@if($id==4)
+    @include("includes/choice")
+@endif
+@include("includes/formQuestion")
 
 @endsection
