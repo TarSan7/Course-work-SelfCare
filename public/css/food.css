@@ -73,11 +73,18 @@ body{
 	font-weight: medium;
 	text-align: center;
 	color: black;
+}
+
+a {
 	text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none; /* Цвет посещённой ссылки */
+   } 
+
 a:hover { 
-    text-decoration: underline; /* Добавляем подчеркивание */
+    text-decoration: none; /* Добавляем подчеркивание */
 	color: black;
 }
 
