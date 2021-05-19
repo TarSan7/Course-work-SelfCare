@@ -28,12 +28,19 @@ Route::get('/courseInfo{id}', function($id){
     $en_name = $course->find($id)->en_name;
     return view('courseInfo', ['id'=>$id, 'advantages'=>$advantages, 'schedules'=>$shedules, 'en_name'=>$en_name]);
 }) -> name('courseInfo');
+
 Route::get('/courses', [MainController::class, 'coursesPage'])->name('courses');
+
 Route::get('/healthyFood', 'App\Http\Controllers\FoodController@getRecipies')->name('foodContainer');
 
-Route::get('/recepie{id}', function($recepieId){
+Route::get('/recepie{id}', function($id){
     $par = new App\Http\Controllers\FoodController();
-    return $par->getRecipe($recepieId);
+    return $par->getRecipe($id);
 })->name('recepie');
 
 Route::get('/basket', [MainController::class, 'basket'])->name('basket');
+Route::get('/card', 'App\Http\Controllers\CardController@index')->name('cardIndex');
+
+Route::post('/main', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
+
+Route::post('/main', 'App\Http\Controllers\UserController@addQuestion')->name('question-form');
