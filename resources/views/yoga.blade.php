@@ -2,7 +2,7 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') css/yoga.css @endsection
+@section('style') <link rel="stylesheet" href="css/yoga.css"> @endsection
 
 @section('content')
         <div class="col-0 col-sm-5"></div>
