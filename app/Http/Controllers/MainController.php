@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Course;
 
 use Illuminate\Http\Request;
 
@@ -16,6 +17,11 @@ class MainController extends Controller
 
     public function yogaPage(){
         return view('yoga');
+    }
+
+    public function courseInfoPage($id){
+        $course = new Course();
+        return view('courseInfo', ['advantages'=>$course->find($id)->advantages]);
     }
 }
 

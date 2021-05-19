@@ -3,117 +3,30 @@
     padding: 0;
 }
 
-.main-header{
-    background: url('../img/mainScreenYoga.png') no-repeat center;
-    height: 777px;
-    width: 100%;
-    background-size: cover;
-}
-
 img{
     width: 100%;
 }
 
-h1{
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 49px;
-text-align: center;
-color: #000000;
+.backgroundOfHeader{
+    background-color: #E58776;
 }
 
-p{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 130%;
-color: #000000;
-
+.menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+    background-color:  #E58776;
 }
 
-.offer{
-    margin:6% auto 0;
-    background-color:  #FFFFFF;
-    width: 96%;
-    padding: 5% 10% 17%;
-}
-
-.offer h1{
-    margin-bottom: 4.7%;
-}
-
-h2{
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 44px;
-color: #000000;
-}
 
 .firstRow{
     display:flex;
 }
 
-.typesOfYoga h1{
-    margin-top: 8%;
-    margin-bottom: 6.5%;
-}
-
-.typesOfYoga img{
-    width: 100%;
-}
-
-.typesOfYoga p{
-    margin: 0;
-    font-size: 20.5px;
-}
-
-.typesOfYoga .row{
-    margin-bottom: 8.8%;
-}
-
-.punct{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    font-size: 26px;
-    width: 74.4%;
-    margin: 0 auto 3.5%;
-}
-
-.punct p{
-    width: 90%;
-    margin-bottom: 0;
-}
-
-.whatWillYouGet img{
-    display: block;
-    width: 40px;
-    height: 40px;
-}
-
-.whatWillYouGet h1{
-    margin-bottom: 5.26%;
-}
-
-.whatWillYouGet{
-    padding-bottom: 8.3%;
-}
-
-.punct-last{
-    margin-bottom: 5.26%;
-}
 
 button{
     display: block;
     width: 30%;
     height: 80px;
     background-color: #FFFFFF;
-    border: 5px solid #00CC69;
+    border: 5px solid #E58776;
     box-sizing: border-box;
     border-radius: 35px;
     font-family: Montserrat;
@@ -126,7 +39,7 @@ button{
 }
 
 button:hover{
-    background:rgb(133, 255, 196, 0.3);;
+    background:rgb(153, 231, 255, 0.5);;
     transition: all 0.5s linear;
 }
 
@@ -170,21 +83,18 @@ button:hover{
 }
 
 .firstInstructor, .secondInstructor{
-    background-image: url('../img/bgInstrYoga1.png');
-    height: 460px;
-}
-
-.secondInstructor{
-    background-image: url('../img/bgInstrYoga2.png');
-    height: 380px;
+    background-image: url('../img/BackgroundInstr1\ \(1\).png');
+    height: 400px;
 }
 
 .firstInstructor{
-    margin-bottom: 5%;
+    margin-bottom: 4.5%;
 }
 
+
+
 .mainInfoAboutInstr{
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .instructors h1{
@@ -238,7 +148,7 @@ button:hover{
     border-radius: 35px;
     border-width: 5px;
     border-style: solid;
-    border-color: #00CC69;
+    border-color: #0AC6FF;
     color: black;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-bottom: 60px;
@@ -246,91 +156,25 @@ button:hover{
 }
 
 @media screen and (max-width: 1200px) {
-    h1{
-        font-size: 36px;
-    }
 
-    h2{
-        font-size: 28px;
-    }
-
-    p{
-        font-size: 20px;
-    }
-
-    .main-header{
-        background: url('../img/mainScreenYoga\(1200-992\).png') no-repeat center;
-    }
-
-    .offer{
-        width: 90%;
-        margin-top: 13.5%;
-    }
-
-    .typesOfYoga p {
-        font-size: 18px;
-    }
-
-    
-    .firstInstructor{
-        height: 510px;
-    }
-
-    .secondInstructor {
+    .firstInstructor, .secondInstructor{
+        background-image: url('../img/BackgroundInstr1\(1200-992\).png');
         height: 440px;
+    }
+
+    .secondInstructor .mainInfoAboutInstr{
+        margin-bottom: 2%;
     }
 }
 
 @media screen and (width: 1200px){
     
-    .offer{
-        padding-bottom: 23%;
+    .secondInstructor .mainInfoAboutInstr{
+        margin-bottom: 5%;
     }
 }
 
 @media screen and (max-width: 992px){
-    h1{
-        font-size: 32px;
-    }
-
-    .main-header{
-        background: url('../img/mainScreenYoga\(992-768\).png') no-repeat center;
-    }
-
-    .offer{
-        width: 100%;
-        margin-top: 13.5%;
-        text-align: center;
-        padding: 5% 5% 25%;
-    }
-
-    .typesOfYoga .row{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .typesOfYoga .row:nth-child(2n){
-        display: flex;
-        flex-direction: column
-    }
-
-    .typesOfYoga h1{
-        margin-bottom: 4.5%;
-    }
-
-    .typesOfYoga img{
-        display: block;
-        width: 70%;
-        margin: auto;
-    }
-
-    .typesOfYoga p{
-        margin-bottom: 3%;
-    }
-
-    .punct{
-        width: 100%;
-    }
 
     button{
         width: 48%; 
@@ -338,11 +182,12 @@ button:hover{
 
     .firstInstructor, .secondInstructor{
         background-image: none;
+        height: 520px;
     }
 
     .mainInfoAboutInstr{
         height: 285px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -364,7 +209,7 @@ button:hover{
     }
 
     .firstInstructor{
-        margin-bottom: 60px;
+        margin-bottom: 15px;
     }
 
     .moreDetailed2{
@@ -372,67 +217,32 @@ button:hover{
     }
 
     .instructors{
-        background-image: url(../img/bgInstrYoga\(992-768\).png);
+        background-image: url(../img/bgInstr\(992-768\).png);
         background-repeat: no-repeat;
         /*background-size: cover;*/
         width: 100%;
-        height:1250px;
-    }
-
-    .firstInstructor{
-        height: 560px;
-    }
-
-    .secondInstructor{
-        height: 540px;
-        margin-bottom: 40px;
+        height:1105px;
     }
 }
 
 
-
 @media screen and (max-width: 768px){
-    h1{
-        font-size: 28px;
-        line-height: 34px;
-    }
-
-    h2{
-        font-size: 28px;
-
-    }
-
-    p{
-        font-size: 18px;
-        line-height: 130%;
-        /* or 23px */
-    }
-
-    .main-header{
-        background: url('../img/mainScreenYoga\(768-576\).png') no-repeat center;
-    }
-
-    .offer{
-        margin-top: 30%;
-        padding: 5% 5% 25%;
-    }
 
     button{
         width:65%;
     }
 
     .instructors{
-        background: url(../img/bgInstrYoga\(768-576\).png);
-        height: 1155px;
-    }
-
-    .instructors p{
-        font-size: 18px;
+        background: url(../img/bgInstr\(768-576\)\ \(1\).png);
+        height: 1095px;
     }
 
     .mainInfoAboutInstr{
         height: 254px;
-        font-size: 16px !important;
+    }
+
+    .instructors p{
+        font-size: 18px;
     }
 
     .details1{
@@ -445,7 +255,7 @@ button:hover{
     }
 
     .firstInstructor{
-        margin-bottom: 35px;;
+        margin-bottom: 20px;;
     }
 
     .title2{
@@ -455,14 +265,13 @@ button:hover{
     .button3{
         margin-bottom: 40px;
     }
+
+    .secondInstructor .mainInfoAboutInstr{
+        margin-bottom: 12%;
+    }
 }
 
 @media screen and (width: 768px){
-    .offer{
-        width: 100%;
-        padding-bottom: 34%;
-        margin-top: 37%;
-    }
 
     .details1{
         margin: 0 -10% 0 -74%;
@@ -477,17 +286,24 @@ button:hover{
         margin-bottom: 27px;
     }
 
-    
-}
+    .firstInstructor{
+        margin-bottom: 15px;
+        height: 453px;
+    }
+
+    .secondInstructor .mainInfoAboutInstr{
+        margin-bottom: 12%;
+    }
+
+    .instructors{
+        height: 950px;
+    }
+
+}    
 
 @media screen and (width: 576px){
     .col-sm-6{
         max-width: 100%;
-    }
-    .offer{
-        width: 500px;
-        margin-left: -218px;
-        padding-bottom: 130px;
     }
 
     .logo img {
@@ -500,51 +316,13 @@ button:hover{
         width: 90%;
     }
 
-    h1{
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    h2{
-        font-size: 23px;
-        line-height: 28p
-    }
-
-    p{
-        font-size: 18px;
-        line-height: 130%;
-    }
-
     button{
         width: 90%;
-    }
-
-    .main-header{
-        background-image: url(../img/mainScreenYoga\(576\).png);
-        height: 910px;
-        
-    }
-
-    .punct img{
-        width: 30px;
-        height: auto;
-    }
-
-    .typesOfYoga img{
-        width: 100%;
     }
 
     .instructors p{
         font-size: 15px;
         line-height: 130%;
-    }
-
-    .firstInstructor{
-        height: 645px;
-    }
-
-    .secondInstructor{
-        height: 570px;
     }
 
     .instructors img{
@@ -567,14 +345,19 @@ button:hover{
         flex-direction: column;
     }
 
+    .secondInstructor .mainInfoAboutInstr, .firstInstructor .mainInfoAboutInstr{
+        margin-bottom: 2%;
+    }
+
+    .secondInstructor, .firstInstructor{
+        margin-bottom: 200px;
+    }
+
     .details1, .details2{
         margin: 0 0 0 0;
         width: 100%;
     }
 
-    .firstInstructor, .secondInstructor{
-        margin-bottom: 300px;
-    }
 
     #buttonDetailed1, #buttonDetailed2{
         display: none;
@@ -590,7 +373,7 @@ button:hover{
     }
 
     .firstInstructor, .secondInstructor{
-        background-color: #85FFC4;
+        background-color: #99E7FF;
     }
 
     .button3{
@@ -616,36 +399,11 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 820px;
-    }
-}
-
-@media screen and (max-width: 485px) {
-    .offer{
-        padding: 1% 0 0 auto;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .offer{
-        padding: 0;
-        padding-top: 1%;
-        padding-bottom: 20%;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .offer{
-        padding: 0;
-        padding-top: 1%;
+        height: 845px;
     }
 }
 
 @media screen and (width: 992px){
-    .offer{
-        width: 100%;
-        padding-bottom: 34%;
-    }
 
     .details1{
         margin: 0 -10% 0 -51%;
@@ -656,23 +414,13 @@ button:hover{
         width: 151%;
     }
 
-    .typesOfYoga .row{
-        flex-direction: row;
-    }
-
-    .typesOfYoga .row:nth-child(2n){
-        flex-direction: row;
-    }
-
-    .typesOfYoga img{
-        width: 100%;
+    .firstInstructor .mainInfoAboutInstr{
+        margin-bottom: 30px;
     }
 
     .firstInstructor {
-        margin-bottom: 35px;
+        margin-bottom: 92px;
     }
 }
-
-
 
 
