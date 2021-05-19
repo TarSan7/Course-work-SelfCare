@@ -2,7 +2,9 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') css/courses.css @endsection
+@section('style')
+<link rel="stylesheet" href="css/courses.css">
+@endsection
 
 @section('content')
 <div class="col-lg-1"></div>
@@ -222,7 +224,7 @@
                         <img src="img/yogaPhoto.png" alt="" class="yoga-photo">
                         <img src="img/meditationPhoto.png" alt="" class="meditation-photo">
                         <img src="img/eatPhoto.png" alt="" class="eat-photo">
-                        
+
                     </div>
                 </div>
                 <div class="col-lg-1"></div>
