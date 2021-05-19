@@ -2,7 +2,9 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') css/landing.css @endsection
+@section('style')
+<link rel="stylesheet" href="css/landing.css">
+@endsection
 
 @section('content')
 <div class="col-lg-1"></div>

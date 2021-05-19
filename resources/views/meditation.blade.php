@@ -2,7 +2,9 @@
 
 @section('title') SelfCare @endsection
 
-@section('style') css/meditation.css @endsection
+@section('style')
+<link rel="stylesheet" href="css/meditation.css">
+@endsection
 
 @section('content')
         <div class="col-0 col-sm-5"></div>
@@ -79,7 +81,6 @@
                     від підлоги, починаючи з п'яти і закінчуючи пальцями ніг, і переставляєте 
                     її вперед. Потім, з видихом, опускаєте стопу на підлогу, переносите на неї 
                     вагу і готуєтеся підняти іншу ступню на наступному вдиху.</p>
-                
             </div>
         </div>
     </div>
