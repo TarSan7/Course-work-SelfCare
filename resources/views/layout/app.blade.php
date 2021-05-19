@@ -48,7 +48,7 @@
                             <a class="scroll" href="{{ route('foodContainer') }}">Здорове харчування</a>
                         </li>
                         <li class="item">
-                            <a class="scroll" href="?page=contacts">Курси саморозвитку</a>
+                            <a class="scroll" href="courses">Курси саморозвитку</a>
                         </li>
                     </ul>
                 </div>

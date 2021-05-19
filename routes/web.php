@@ -18,6 +18,7 @@ Route::get('/main', [MainController::class, 'firstPage']) -> name('main');
 
 Route::get('/meditation', [MainController::class, 'meditationPage']) -> name('meditation');
 
+Route::get('/courses', [MainController::class, 'coursesPage'])->name('courses');
 Route::get('/healthyFood', 'App\Http\Controllers\FoodController@getRecipies')->name('foodContainer');
 
 Route::get('/recepie{id}', function($recepieId=id){

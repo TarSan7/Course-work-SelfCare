@@ -13,6 +13,11 @@ class MainController extends Controller
     public function meditationPage(){
         return view('meditation');
     }
+    
+    public function coursesPage()
+    {
+        return view('courses');
+    }
 }
 
 
