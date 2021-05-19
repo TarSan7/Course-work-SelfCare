@@ -4,7 +4,7 @@
         <div class="form-title">
             <h1 class="title2">З’явилися питання? Зв’яжіться з нами заповнивши форму.</h1>
         </div>
-        <form action="{{ route('question-form') }}" class="form" method="post">
+        <form action="route('question-form')" class="form" method="post">
         @csrf
             <div class="row form-row">
                 <div class="col-lg-6 col-sm-12  name-mail">

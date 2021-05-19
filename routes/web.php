@@ -38,7 +38,6 @@ Route::get('/recepie{id}', function($id){
     return $par->getRecipe($id);
 })->name('recepie');
 
-Route::get('/basket', [MainController::class, 'basket'])->name('basket');
 Route::get('/card', 'App\Http\Controllers\CardController@index')->name('cardIndex');
 
 Route::post('/main', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
