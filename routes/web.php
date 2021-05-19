@@ -35,3 +35,5 @@ Route::get('/recepie{id}', function($recepieId){
     $par = new App\Http\Controllers\FoodController();
     return $par->getRecipe($recepieId);
 })->name('recepie');
+
+Route::get('/basket', [MainController::class, 'basket'])->name('basket');

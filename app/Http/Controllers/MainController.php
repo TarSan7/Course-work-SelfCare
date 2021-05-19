@@ -27,6 +27,10 @@ class MainController extends Controller
     {
         return view('courses');
     }
+    public function basket()
+    {
+        return view('basket');
+    }
 }
 
 
