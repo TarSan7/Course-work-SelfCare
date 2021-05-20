@@ -25,6 +25,6 @@ class UserController extends Controller
         $reg->e_mail = $req->input('e_mail');
         $reg->text = $req->input('text');
         $reg->save();
-        return redirect()->route('main')->with('success', 'Thank you for Question!');
+        return redirect()->route('main')->with('success', 'Thank you for question!');
     }
 }

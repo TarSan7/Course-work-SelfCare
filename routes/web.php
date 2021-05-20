@@ -3,7 +3,7 @@
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Course;
-
+use App\Http\Requests\CommentRequest;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,7 +38,7 @@ Route::get('/recepie{id}', function($id){
     return $par->getRecipe($id);
 })->name('recepie');
 
-Route::get('/card', 'App\Http\Controllers\CardController@index')->name('cardIndex');
+Route::get('/card{id}', 'App\Http\Controllers\CardController@index')->name('cardIndex');
 
 Route::post('/main', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
 

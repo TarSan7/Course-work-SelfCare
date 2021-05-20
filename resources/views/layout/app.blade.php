@@ -16,6 +16,7 @@
 </head>
 
 <body>
+@include('includes.message')
     <header class="main-header">
         <div class="container">
             <div class="row head-row-first">
@@ -55,7 +56,6 @@
 
 
                 @yield('content')
-                @include('includes.message')
 
                 <footer class="footer">
                     <div class="container">
