@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-md-5 col-12">
-                    <img src="../img/yogaInstr1Photo.png" alt="">
+                    <img src="img/yogaInstr1Photo.png" alt="">
                 </div>
                 <div class="col-lg-8 col-sm-6 col-md-7 col-12">
                     <p class="mainInfoAboutInstr"><span class="boldText">Коваль Миколай</span> <br>
@@ -51,7 +51,7 @@
                     </div> 
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-5 col-12">
-                        <img src="../img/yogaInstr2Photo.png" alt="">
+                        <img src="img/yogaInstr2Photo.png" alt="">
                     </div>
                 </div>
         </div>

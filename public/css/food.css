@@ -154,7 +154,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
 
 	.headerText {
 		font-size: 16px;
@@ -187,19 +187,22 @@ a:hover {
 	.recepieName{
 		font-size: 20px;
 	}
-
+	.main-header .main-content{
+		height: auto;
+		flex-direction: inherit;
+	}
 	/*Добавлено для исправления блока*/
-	.main-content{
+	/* .main-content{
 		position: absolute;
 		left: 14%;
 		top: 0;
-	}
+	} */
 	/*-------------------------------*/
 }
 
 @media (width:576px){
 	/*Добавлено для исправления блока*/
-	.main-content{
+	/* .main-content{
 		position: absolute;
 		left: 16%;
 		top: -6%;
@@ -207,6 +210,6 @@ a:hover {
 
 	.main-content-text{
 		height: 600px;
-	}
+	} */
 	/*-------------------------------*/
 }
