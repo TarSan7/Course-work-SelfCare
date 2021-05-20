@@ -25,7 +25,7 @@ class QuestionRequest extends FormRequest
     {
         return [
             'nickname' => 'required|min:3|max:32',
-            'e-mail' => 'required|email',
+            'e_mail' => 'required|email',
             'text' => 'required|max:500'
         ];
     }

@@ -9,7 +9,7 @@
             <div class="row form-row">
                 <div class="col-lg-6 col-sm-12 name-mail">
                     <input type="text" required class="area" name="nickname" id="nickname" placeholder="Ваше ім'я...">
-                    <input type="email" required class="area" name="e_mail" id="e_mail" placeholder="Рік проходження курсу...">
+                    <input type="text" required class="area" name="year" id="year" placeholder="Рік проходження курсу...">
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <textarea type="comment" placeholder="Відгук..." required class="area" name="text" id="text"></textarea>

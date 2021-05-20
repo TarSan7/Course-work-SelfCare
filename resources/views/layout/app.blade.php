@@ -55,6 +55,7 @@
 
 
                 @yield('content')
+                @include('includes.message')
 
                 <footer class="footer">
                     <div class="container">
