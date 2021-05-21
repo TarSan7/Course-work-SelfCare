@@ -10,50 +10,6 @@
 <div class="col-lg-1"></div>
 <div class="col-12 col-lg-10 main-content">
     <h1 class="title">
-<<<<<<< HEAD
-        Ваш кошик</h1>
-        @if(Session::has('cart'))
-        <div class="row">
-        <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-        <ul class="list-group">
-        @foreach($courses as $course)
-        <li class="list-group-item">
-        <span class="badge">{{ $course['qty'] }}</span>
-        <strong>{{ $course['item']['title'] }}</strong>
-        <span class="label label-success">{{ $course['price'] }}</span>
-        <div class="btn-group">
-        <button class="btn btn-primary btn-xs dropdown-toogle" data-toggle="dropdown">
-        Action <span class="caret"></span>
-        <ul class="dropdown-menu">
-        <li class=""><a href=""Reduce by 1></a></li>
-        <li class=""><a href=""Reduce by All></a></li>
-        </ul>
-        </button>
-        </div>
-        </li>
-        @endforeach
-        </ul>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-        <strong>Total: {{ $totalPrice }}</strong>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-        <button type="button" class="btn btn-success">Checkout</button>
-        </div>
-        </div>
-        @else
-        <div class="row">
-        <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-        <h2>No items in cart</h2>
-        </div>
-        </div>
-        @endif
-</div>
-=======
         Ваш кошик
     </h1>
     <div class="row">
@@ -175,7 +131,6 @@
             </div>
         </div>
     </div>
->>>>>>> 98cc7fa177a40b064cc7013ec785b27f9002b3b1
 </div>
 </div>
 </header>
