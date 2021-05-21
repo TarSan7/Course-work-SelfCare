@@ -21,8 +21,10 @@ class MainController extends Controller
 
     public function courseInfoPage($id){
         $course = new Course();
-        return view('courseInfo', ['advantages'=>$course->find($id)->advantages]);
+        $advantages=-$course->find($id)->advantages;
+        return view('courseInfo', compact('advantages', 'id'));
     }
+    
     public function coursesPage()
     {
         return view('courses');

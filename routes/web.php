@@ -38,8 +38,6 @@ Route::get('/recepie{id}', function($id){
     return $par->getRecipe($id);
 })->name('recepie');
 
-Route::get('/card{id}', 'App\Http\Controllers\CardController@index')->name('cardIndex');
-
 Route::post('/main', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
 
 Route::post('/main/submit', 'App\Http\Controllers\UserController@submit')->name('question-form');

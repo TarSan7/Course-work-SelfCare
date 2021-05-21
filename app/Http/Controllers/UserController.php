@@ -16,7 +16,7 @@ class UserController extends Controller
         $comment->year = $req->input('year');
         $comment->text = $req->input('text');
         $comment->save();
-        return redirect()->route('main')->with('success', 'Thank you for comment!');
+        return redirect()->route('main')->with('success', ['m' => 'Thank you for comment!']);
     }
 
     public function submit(QuestionRequest $req) {
@@ -25,6 +25,6 @@ class UserController extends Controller
         $reg->e_mail = $req->input('e_mail');
         $reg->text = $req->input('text');
         $reg->save();
-        return redirect()->route('main')->with('success', 'Thank you for question!');
+        return redirect()->route('main')->with('success', ['m' => 'Thank you for question!']);
     }
 }

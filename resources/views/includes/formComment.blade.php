@@ -4,7 +4,7 @@
         <div class="form-title">
             <h1 class="title2">Вже проходили курс?<br>Залиште Ваш відгук</h1>
         </div>
-        <form action="route('comment-form')" class="form" method="post">
+        <form action="{{ route('comment-form') }}" class="form" method="post">
         @csrf
             <div class="row form-row">
                 <div class="col-lg-6 col-sm-12 name-mail">

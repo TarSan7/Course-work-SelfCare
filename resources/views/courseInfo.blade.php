@@ -22,7 +22,7 @@
                 @endfor
                 </div>
                 @if($id!=4)
-                    <form action="#" target="_blank">
+                    <form action="" target="_blank">
                         <button>Придбати курс!</button>
                     </form>
                 @endif    
