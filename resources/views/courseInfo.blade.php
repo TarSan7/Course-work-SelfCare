@@ -22,9 +22,9 @@
                 @endfor
                 </div>
                 @if($id!=4)
-                    <form action="#" target="_blank">
-                        <button>Придбати курс!</button>
-                    </form>
+                    
+                        <button><a href="{{route('course.addTocart', ['id'=>$id])}}" target="_self">Придбати курс!</a></button>
+                    
                 @endif    
             </div>
         </div>

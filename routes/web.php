@@ -43,3 +43,4 @@ Route::get('/card', 'App\Http\Controllers\CardController@index')->name('cardInde
 Route::post('/main', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
 
 Route::post('/main', 'App\Http\Controllers\UserController@addQuestion')->name('question-form');
+
