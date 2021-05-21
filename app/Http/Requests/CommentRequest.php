@@ -25,7 +25,7 @@ class CommentRequest extends FormRequest
     {
         return [
                 'nickname' => 'required|min:3|max:32',
-                'year' => 'required|integer|min:2002|max:2020',
+                'year' => 'required|integer|min:2002|max:2021',
                 'text' => 'required|max:600'
         ];
     }
