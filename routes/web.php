@@ -39,7 +39,13 @@ Route::get('/recepie{id}', function($id){
 })->name('recepie');
 
 Route::get('/card', 'App\Http\Controllers\CardController@index')->name('cardIndex');
+Route::post('/basket{id}', 'App\Http\Controllers\CardController@addcourse')->name('basketid');
 
 Route::post('/main', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
 
 Route::post('/main', 'App\Http\Controllers\UserController@addQuestion')->name('question-form');
+
+Route::post('/minus{id}', 'App\Http\Controllers\CardController@minus')->name('minus');
+Route::post('/plus{id}', 'App\Http\Controllers\CardController@plus')->name('plus');
+Route::post('/delete{id}', 'App\Http\Controllers\CardController@delete')->name('delete');
+
