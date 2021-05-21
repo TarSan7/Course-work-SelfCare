@@ -4,14 +4,15 @@ body{
 }
 .main-header{
     background: none;
+    height: 1520px;
 }
 footer{
     background:white;
 }
 .main-content{
-    padding: 0 0 0;
+    padding: 0;
     margin-top: 50px;
-    max-height: 600px;
+    max-height: 800px;
 }
 .form-row{
     justify-content: center;
@@ -22,11 +23,114 @@ footer{
     font-family: 'Montserrat', serif;
     font-weight: bold;
     font-size: 36px;
-    padding-bottom: 60px;
 }
 .section1 .title{
-    margin-top: 80px;
+    margin-bottom: 40px;
 }
+
+
+.yoga, .meditation, .eat{
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 0;
+    margin-top: 10px;
+}
+#med{
+    border-color:#0AC6FF;
+}
+#yog{
+    border-color:#00CC69;
+}
+
+#eat{
+    border-color:#E58776;
+}
+.yoga .title, .meditation .title, .eat .title, .constr .title{
+    margin-top: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.yoga .text, .meditation .text, .eat .text, .constr .text, .price .text{
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#add{
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    font-size: 36px;
+}
+.btwrap{
+    align-items: center;
+    margin: 0;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(255, 255, 255, 0);
+    border-radius: 35px;
+    border-width: 5px;
+    border-style: solid;
+    color: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+.raiting, .time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.time-yoga, .price-yoga, .time-med, .time-eat{
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #00CC69;
+    margin: 0;
+    text-align: center;
+}
+.time-med{
+    color: #0AC6FF;
+}
+.time-eat{
+    color: #E58776;
+}
+.price{
+    display: flex;
+    justify-content: flex-end;
+}
+.price p{
+    margin: 0;
+}
+.price .title{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: rgb(255, 253, 253, 0.8);
+}
+.price .text{
+    padding-right: 10px;
+}
+
 .area{
     background: #FFFDFD;
     border: 1px solid #949494;

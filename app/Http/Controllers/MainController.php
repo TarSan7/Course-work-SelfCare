@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 use App\Models\Course;
-
+use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session as FacadesSession;
 
 class MainController extends Controller
 {
     public function firstPage(){
+        
         return view('landing');
     }
 
