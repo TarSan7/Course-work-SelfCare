@@ -108,16 +108,16 @@
             @if($constr['y'] == 0 && $constr['m'] == 0 && $constr['e'] == 0)
             <p class="time-yoga">-</p>
             @else
-                @if($constr['y'] > 0)
-                <p class="time-yoga">Курс йоги</p>
-                @endif
-                @if($constr['m'] > 0)
-                <p class="time-med">Курс медитацій</p>
-                @endif
-                @if($constr['e'] > 0)
-                <p class="time-eat">Курс здорового харчування</p>
-                @endif
-                @endif
+            @if($constr['y'] > 0)
+            <p class="time-yoga">Курс йоги</p>
+            @endif
+            @if($constr['m'] > 0)
+            <p class="time-med">Курс медитацій</p>
+            @endif
+            @if($constr['e'] > 0)
+            <p class="time-eat">Курс здорового харчування</p>
+            @endif
+            @endif
             @endif
             <div class="buttons">
                 <p class="btwrap">
@@ -132,7 +132,7 @@
         <div class="price col-12">
             <div class="title">
                 <p class="text">Загальна сума: </p>
-                <p> {{ ($yoga + $meditation + $eat) * 1999 + ($constr == 0 ? 0 : 1) * 2999 }}$ </p>
+                <p> {{ ($yoga + $meditation + $eat) * 1999 + (($constr['y'] == 0 && $constr['m'] == 0 && $constr['e'] == 0) ? 0 : 1) * 2999 }}$ </p>
             </div>
         </div>
     </div>
