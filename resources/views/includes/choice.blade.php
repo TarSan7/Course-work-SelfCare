@@ -10,7 +10,7 @@
                         <input id="checkbox" type="checkbox" name="checkbox1" value="checkbox">
                     <label for="checkbox">
                         <img src='img/yogaPhoto.png' />
-                        <p><span>Медитація</span></p>
+                        <p><span>Йога</span></p>
                     </label>
                 </div>
 
@@ -18,7 +18,7 @@
                         <input id="checkbox2" type="checkbox" name="checkbox2" value="checkbox2">
                     <label for="checkbox2">
                         <img src='img/meditationPhoto.png' />
-                        <p><span>Йога</span></p>
+                        <p><span>Медитація</span></p>
                     </label>
                 </div>
 
