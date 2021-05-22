@@ -3,7 +3,7 @@
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Course;
-
+use App\Http\Requests\CommentRequest;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,9 +38,16 @@ Route::get('/recepie{id}', function($id){
     return $par->getRecipe($id);
 })->name('recepie');
 
+
+Route::post('/main/submit', 'App\Http\Controllers\UserController@submit')->name('question-form');
 Route::get('/card', 'App\Http\Controllers\CardController@index')->name('cardIndex');
+Route::post('/basket{id}', 'App\Http\Controllers\CardController@addcourse')->name('basketid');
 
-Route::post('/main', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
+Route::post('/comment-form', 'App\Http\Controllers\UserController@addComment')->name('comment-form');
 
-Route::post('/main', 'App\Http\Controllers\UserController@addQuestion')->name('question-form');
+Route::post('/question-form', 'App\Http\Controllers\UserController@addQuestion')->name('question-form');
+
+Route::post('/minus{id}', 'App\Http\Controllers\CardController@minus')->name('minus');
+Route::post('/plus{id}', 'App\Http\Controllers\CardController@plus')->name('plus');
+Route::post('/delete{id}', 'App\Http\Controllers\CardController@delete')->name('delete');
 

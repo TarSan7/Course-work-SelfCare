@@ -24,11 +24,9 @@ class CommentRequest extends FormRequest
     public function rules()
     {
         return [
-            return [
                 'nickname' => 'required|min:3|max:32',
-                'e-mail' => 'required|email',
-                'text' => 'required|max:500'
-            ];
+                'year' => 'required|integer|min:2002|max:2021',
+                'text' => 'required|max:600'
         ];
     }
 }

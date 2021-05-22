@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 use App\Models\Course;
-
+use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session as FacadesSession;
 
 class MainController extends Controller
 {
     public function firstPage(){
+        
         return view('landing');
     }
 
@@ -21,8 +23,10 @@ class MainController extends Controller
 
     public function courseInfoPage($id){
         $course = new Course();
-        return view('courseInfo', ['advantages'=>$course->find($id)->advantages]);
+        $advantages=-$course->find($id)->advantages;
+        return view('courseInfo', compact('advantages', 'id'));
     }
+    
     public function coursesPage()
     {
         return view('courses');

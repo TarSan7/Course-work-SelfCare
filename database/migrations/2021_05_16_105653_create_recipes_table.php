@@ -18,7 +18,7 @@ class CreateRecipesTable extends Migration
             $table->string('title');
             $table->Integer('time');
             $table->Integer('reiting');
-            $table->Integer('Complexity');
+            $table->string('Complexity');
             $table->string('img');
             $table->timestamps();
         });

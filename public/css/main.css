@@ -198,6 +198,9 @@ footer img{
 }
 
 @media screen and (max-width: 992px){
+    .badge{
+        color:white;
+    }
     .phone, .basket{
         display: none;
     }
@@ -208,6 +211,7 @@ footer img{
     }
     .basket1{
         margin-left: 35px;
+        margin-right: 0;
         width: 45px;
         height: 45px;
     }
@@ -271,7 +275,6 @@ footer img{
     }
     .basket1{
         margin-left: 35px;
-        margin-right: 20px;
         width: 45px;
         height: 45px;
     }
@@ -286,7 +289,7 @@ footer img{
 
 @media screen and (max-width: 576px){
     .basket1{
-        margin-left: 15px;
+        margin-left: 20px;
     }
     .menu-burger{
         width: 300px;
@@ -300,13 +303,13 @@ footer img{
         padding: 0 5%;
     }
     .logo{
-        width: 180px;
+        width: 160px;
     }
     .basket1{
-        width: 35px;
+        width: 30px;
     }
     .phone1{
-        width: 30px;
+        width: 25px;
     }
     footer .logo{
         display: flex;

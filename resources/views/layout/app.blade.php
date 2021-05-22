@@ -16,6 +16,7 @@
 </head>
 
 <body>
+@include('includes.message')
     <header class="main-header">
         <div class="container">
             <div class="row head-row-first">
@@ -25,9 +26,10 @@
                 <div class="col-lg-5 col-4"></div>
                 <div class="phone-basket col-4">
                     <img class="phone" src="img/phone.svg" alt="phone">
-                    <a href="{{ route('cardIndex') }}"><img class="basket" src="img/basket.svg" alt="basket"></a>
+                    <a href="{{ route('cardIndex') }}"> <img class="basket" src="img/basket.svg" alt="basket"></a>
                     <img class="phone1" src="img/phone1.svg" alt="phone">
                     <a href="{{ route('cardIndex') }}"><img class="basket1" src="img/basket1.svg" alt="basket"></a>
+                    <span class="badge">{{ Session::has('totalQuatity') ? Session::get('totalQuatity'): ''}}</span>
                 </div>
                 <div class="col-1 col-lg-11 burger">
                     <input id="menu-toggle" type="checkbox" />

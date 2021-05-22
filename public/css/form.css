@@ -95,4 +95,7 @@
         font-size: 18px;
         margin-bottom: 20px;
     }
+     #text{
+        height: 100px;
+    }
 }

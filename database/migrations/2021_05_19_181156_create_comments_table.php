@@ -17,7 +17,7 @@ class CreateCommentsTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('nickname');
-            $table->string('e_mail');
+            $table->integer('year');
             $table->text('text');
         });
     }
