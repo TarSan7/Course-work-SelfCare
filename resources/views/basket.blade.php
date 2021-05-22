@@ -105,6 +105,9 @@
             @if(!(isset($constr['y'])&&isset($constr['m'])&&isset($constr['e'])))
             <p class="time-yoga">-</p>
             @else
+            @if($constr['y'] == 0 && $constr['m'] == 0 && $constr['e'] == 0)
+            <p class="time-yoga">-</p>
+            @else
                 @if($constr['y'] > 0)
                 <p class="time-yoga">Курс йоги</p>
                 @endif
@@ -113,6 +116,7 @@
                 @endif
                 @if($constr['e'] > 0)
                 <p class="time-eat">Курс здорового харчування</p>
+                @endif
                 @endif
             @endif
             <div class="buttons">
