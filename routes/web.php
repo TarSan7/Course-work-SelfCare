@@ -47,6 +47,8 @@ Route::post('/comment-form', 'App\Http\Controllers\UserController@addComment')->
 
 Route::post('/question-form', 'App\Http\Controllers\UserController@addQuestion')->name('question-form');
 
+Route::post('/order-form', 'App\Http\Controllers\OrderController@submit')->name('order-form');
+
 Route::post('/minus{id}', 'App\Http\Controllers\CardController@minus')->name('minus');
 Route::post('/plus{id}', 'App\Http\Controllers\CardController@plus')->name('plus');
 Route::post('/delete{id}', 'App\Http\Controllers\CardController@delete')->name('delete');

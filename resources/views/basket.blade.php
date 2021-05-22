@@ -145,7 +145,7 @@
         <div class="basket-form-title">
             <h1 class="title">Оформити замовлення</h1>
         </div>
-        <form action="" class="form" method="post">
+        <form action="{{route('order-form')}}" class="form" method="post">
             @csrf
             <div class="row form-row">
                 <div class="col-lg-8 col-sm-12 name">
@@ -156,9 +156,6 @@
                 </div>
                 <div class="col-lg-8 col-12 date-course">
                     <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')" required class="area" name="date-course" id="date" placeholder="Бажана дата проходження курсу">
-                </div>
-                <div class="col-lg-8 col-sm-12">
-                    <input type="text" required class="area" name="e_mail" id="e_mail" placeholder="Рік проходження курсу">
                 </div>
                 <div class="col-lg-8 col-sm-12 number">
                     <input type="text" required class="area" name="number" id="nickname" placeholder="Номер телефону">

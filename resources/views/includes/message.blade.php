@@ -9,6 +9,6 @@ $var = implode("\\n", $errors->all());
     @endif
 @if(session('success'))
 <script>
-    alert("Thank you for message!");
+    alert("Thank you! The sending was successful!");
     </script>
 @endif
