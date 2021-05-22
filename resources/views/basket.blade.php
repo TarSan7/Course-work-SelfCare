@@ -102,17 +102,18 @@
             <h1 class="title">
                 "Курс Конструктор"
             </h1>
-            @if($constr == 0)
+            @if(!(isset($constr['y'])&&isset($constr['m'])&&isset($constr['e'])))
             <p class="time-yoga">-</p>
-            @endif
-            @if($constr['y'] > 0)
-            <p class="time-yoga">Курс йоги</p>
-            @endif
-            @if($constr['m'] > 0)
-            <p class="time-med">Курс медитацій</p>
-            @endif
-            @if($constr['e'] > 0)
-            <p class="time-eat">Курс здорового харчування</p>
+            @else
+                @if($constr['y'] > 0)
+                <p class="time-yoga">Курс йоги</p>
+                @endif
+                @if($constr['m'] > 0)
+                <p class="time-med">Курс медитацій</p>
+                @endif
+                @if($constr['e'] > 0)
+                <p class="time-eat">Курс здорового харчування</p>
+                @endif
             @endif
             <div class="buttons">
                 <p class="btwrap">
