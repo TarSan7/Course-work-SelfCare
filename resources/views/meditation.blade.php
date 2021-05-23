@@ -3,7 +3,7 @@
 @section('title') SelfCare @endsection
 
 @section('style')
-<link rel="stylesheet" href="css/meditation.css">
+<link rel="stylesheet" href="{{asset('public/css/meditation.css')}}">
 @endsection
 
 @section('content')
@@ -36,12 +36,12 @@
                     лякайтеся, якщо увага раптом перескочить на щось інше - просто поверніть її назад.</p>
             </div>
             <div class="col-lg-6 col-12">
-                <img src="img/ConcsiousBreatheImage.png" alt="">
+                <img src="{{asset('public/img/ConcsiousBreatheImage.png')}}" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 col-12">
-                <img src="img/Visualization Image.png" alt="">
+                <img src="{{asset('public/img/Visualization Image.png')}}" alt="">
             </div>
             <div class="col-lg-6 col-12">
                 <h2>Візуалізація</h2>
@@ -65,12 +65,12 @@
                     дихання. Поспостерігайте за кожним своїм вдихом і видихом</p>
             </div>
             <div class="col-lg-6 col-12">
-                <img src="img/VipasanaImage.png" alt="">
+                <img src="{{asset('public/img/VipasanaImage.png')}}" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 col-12">
-                <img src="img/ActionImage.png" alt="">
+                <img src="{{asset('public/img/ActionImage.png')}}" alt="">
             </div>
             <div class="col-lg-6 col-12">
                 <h2>Медитація в русі</h2>
@@ -89,19 +89,19 @@
     <div class="container">
         <h1>Що Ви отримаєте від курсу?</h1>
         <div class="punct">
-            <img src="img/starIcon.png" alt="">
+            <img src="{{asset('public/img/starIcon.png')}}" alt="">
             <p>Можливість провести час сконцентрувавшись на собі та природі довкола</p>
         </div>
         <div class="punct">
-            <img src="img/starIcon.png" alt="">
+            <img src="{{asset('public/img/starIcon.png')}}" alt="">
             <p>Два тижня проживання в комфортних умовах затишного будинку в лісі, подалі від гучної реальності великого міста</p>
         </div>
         <div class="punct">
-            <img src="img/starIcon.png" alt="">
+            <img src="{{asset('public/img/starIcon.png')}}" alt="">
             <p>Станете більш стресостійким, покращите свою пам’ять та сон завдяки щоденним практикам медитації</p>
         </div>
         <div class="punct punct-last">
-            <img src="img/starIcon.png" alt="">
+            <img src="{{asset('public/img/starIcon.png')}}" alt="">
             <p>Відновите сили, отримаєте заряд енергії, знайдете гармонію в собі, навчитеся краще розуміти себе та близьких.</p>
         </div>
         <button onclick="document.location='courseInfo2'">Подивитися курс медитації</button>
@@ -113,7 +113,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-md-5 col-12">
-                    <img src="img/meditationInstr1Photo.png" alt="">
+                    <img src="{{asset('public/img/meditationInstr1Photo.png')}}" alt="">
                 </div>
                 <div class="col-lg-8 col-sm-6 col-md-7 col-12">
                     <p class="mainInfoAboutInstr"><span class="boldText">Міщенко Ксенія</span> <br>
@@ -160,7 +160,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-5 col-12">
-                    <img src="img/meditationInstr2Photo.png" alt="">
+                    <img src="{{asset('public/img/meditationInstr2Photo.png')}}" alt="">
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@
 @section('title') SelfCare @endsection
 
 @section('style')
-<link rel="stylesheet" href="css/courseInfo.css">
+<link rel="stylesheet" href="{{asset('public/css/courseInfo.css')}}">
 @endsection
 
 
@@ -13,7 +13,7 @@
     <h1>Чого Ви навчитесь на курсі?</h1>
     <div class=wrap>
         @for($i=0; $i<6; $i++) <div class="adv">
-            <img src="img/iconNumber{{$i+1}}.png" alt="">
+            <img src="{{asset('public/img/iconNumber'.($i+1).'.png')}}" alt="">
             <p>
                 {{$advantages[$i]->description}}
             </p>

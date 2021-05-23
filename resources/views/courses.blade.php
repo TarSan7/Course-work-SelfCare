@@ -3,7 +3,7 @@
 @section('title') SelfCare @endsection
 
 @section('style')
-<link rel="stylesheet" href="css/courses.css ">
+<link rel="stylesheet" href="{{asset('public/css/courses.css')}} ">
 @endsection
 
 @section('content')
@@ -34,10 +34,10 @@
         </h1>
         <div class="row text-place">
             <div class="imgwrap col-12 house">
-                <img src="img/house1.png" alt="">
+                <img src="{{asset('public/img/house1.png')}}" alt="">
             </div>
             <div class="imgwrap col-12 house">
-                <img src="img/house2.png" alt="">
+                <img src="{{asset('public/img/house2.png')}}" alt="">
             </div>
             <div class="col-1"></div>
             <div class="col-10">
@@ -50,10 +50,10 @@
             </div>
             <div class="col-1"></div>
             <div class="imgwrap col-12 house">
-                <img src="img/house3.png" alt="">
+                <img src="{{asset('public/img/house3.png')}}" alt="">
             </div>
             <div class="imgwrap col-12 house">
-                <img src="img/house4.png" alt="">
+                <img src="{{asset('public/img/house4.png')}}" alt="">
             </div>
         </div>
     </div>
@@ -69,7 +69,7 @@
                 <div class="col-1"></div>
                 <div class="col-10 col-lg-5 nopad">
                     <div class="imgwrap">
-                        <img src="img/yogaPhoto.png" alt="" class="yoga-photo">
+                        <img src="{{asset('public/img/yogaPhoto.png')}}" alt="" class="yoga-photo">
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 nopad">
@@ -88,11 +88,11 @@
                     <div class="raiting">
                         <p class="text">Рейтинг курсу:</p>
                         <div class="stars">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                         </div>
                     </div>
                     <div class="time">
@@ -120,7 +120,7 @@
                 <div class="col-1"></div>
                 <div class="col-10 col-lg-5 nopad">
                     <div class="imgwrap">
-                        <img src="img/meditationPhoto.png" alt="" class="meditation-photo">
+                        <img src="{{asset('public/img/meditationPhoto.png')}}" alt="" class="meditation-photo">
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 nopad">
@@ -139,11 +139,11 @@
                     <div class="raiting">
                         <p class="text">Рейтинг курсу:</p>
                         <div class="stars">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                         </div>
                     </div>
                     <div class="time">
@@ -171,7 +171,7 @@
                 <div class="col-1"></div>
                 <div class="col-10 col-lg-5 nopad">
                     <div class="imgwrap">
-                        <img src="img/eatPhoto.png" alt="" class="eat-photo">
+                        <img src="{{asset('public/img/eatPhoto.png')}}" alt="" class="eat-photo">
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 nopad">
@@ -189,11 +189,11 @@
                     <div class="raiting">
                         <p class="text">Рейтинг курсу:</p>
                         <div class="stars">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                         </div>
                     </div>
                     <div class="time">
@@ -221,9 +221,9 @@
                 <div class="col-1"></div>
                 <div class="col-10 nopad">
                     <div class="imgwrap">
-                        <img src="img/yogaPhoto.png" alt="" class="yoga-photo">
-                        <img src="img/meditationPhoto.png" alt="" class="meditation-photo">
-                        <img src="img/eatPhoto.png" alt="" class="eat-photo">
+                        <img src="{{asset('public/img/yogaPhoto.png')}}" alt="" class="yoga-photo">
+                        <img src="{{asset('public/img/meditationPhoto.png')}}" alt="" class="meditation-photo">
+                        <img src="{{asset('public/img/eatPhoto.png')}}" alt="" class="eat-photo">
 
                     </div>
                 </div>
@@ -242,11 +242,11 @@
                     <div class="raiting">
                         <p class="text">Рейтинг курсу:</p>
                         <div class="stars">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
-                            <img src="img/star.png" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                         </div>
                     </div>
                     <div class="time">

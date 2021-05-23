@@ -3,7 +3,7 @@
 @section('title') SelfCare @endsection
 
 @section('style')
-<link rel="stylesheet" href="css/landing.css">
+<link rel="stylesheet" href="{{asset('public/css/landing.css')}}">
 @endsection
 
 @section('content')
@@ -53,10 +53,10 @@
         <div class="row parts-row">
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="pointer" src="img/pointer1.svg" alt="pointer">
+                    <img class="pointer" src="{{asset('public/img/pointer1.svg')}}" alt="pointer">
                 </div>
                 <div class="imgwrap">
-                    <img class="part-photo" src="img/part1.png" alt="photo">
+                    <img class="part-photo" src="{{asset('public/img/part1.png')}}" alt="photo">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -68,10 +68,10 @@
             </div>
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="pointer" src="img/pointer2.svg" alt="pointer">
+                    <img class="pointer" src="{{asset('public/img/pointer2.svg')}}" alt="pointer">
                 </div>
                 <div class="imgwrap">
-                    <img class="part-photo" src="img/part2.png" alt="photo">
+                    <img class="part-photo" src="{{asset('public/img/part2.png')}}" alt="photo">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -82,10 +82,10 @@
             </div>
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="pointer" src="img/pointer3.svg" alt="pointer">
+                    <img class="pointer" src="{{asset('public/img/pointer3.svg')}}" alt="pointer">
                 </div>
                 <div class="imgwrap">
-                    <img class="part-photo" src="img/part3.png" alt="photo">
+                    <img class="part-photo" src="{{asset('public/img/part3.png')}}" alt="photo">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -122,7 +122,7 @@
         <div class="row instruct-row">
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="instruct" src="img/instr1.png" alt="pointer">
+                    <img class="instruct" src="{{asset('public/img/instr1.png')}}" alt="pointer">
                 </div>
                 <p class="part-text1">
                     <span class="span5">Коваль Миколай<br></span>
@@ -137,7 +137,7 @@
                     Курси медитаціі, самостійний розвиток.
                 </p>
                 <div class="imgwrap">
-                    <img class="instruct" src="img/instr2.png" alt="pointer">
+                    <img class="instruct" src="{{asset('public/img/instr2.png')}}" alt="pointer">
                 </div>
                 <p class="part-text2" id="unvis">
                     <span class="span5">Міщенко Ксенія <br></span>
@@ -147,7 +147,7 @@
             </div>
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="instruct" src="img/instr3.png" alt="pointer">
+                    <img class="instruct" src="{{asset('public/img/instr3.png')}}" alt="pointer">
                 </div>
                 <p class="part-text1">
                     <span class="span5">Злотник Марія <br></span>
@@ -165,7 +165,7 @@
         <div class="row instruct-row">
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="whywe" src="img/why1.png" alt="pointer">
+                    <img class="whywe" src="{{asset('public/img/why1.png')}}" alt="pointer">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -175,7 +175,7 @@
             </div>
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="whywe" src="img/why2.png" alt="pointer">
+                    <img class="whywe" src="{{asset('public/img/why2.png')}}" alt="pointer">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -185,7 +185,7 @@
             </div>
             <div class="col-12 col-sm-4 wrap-part">
                 <div class="imgwrap">
-                    <img class="whywe" src="img/why3.png" alt="pointer">
+                    <img class="whywe" src="{{asset('public/img/why3.png')}}" alt="pointer">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -198,7 +198,7 @@
             <div class="col-sm-2"></div>
             <div class="col-12 col-sm-4 wrap-part" id="whymarg">
                 <div class="imgwrap">
-                    <img class="whywe" src="img/why4.png" alt="pointer">
+                    <img class="whywe" src="{{asset('public/img/why4.png')}}" alt="pointer">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -208,7 +208,7 @@
             </div>
             <div class="col-12 col-sm-4 wrap-part" id="whymarg">
                 <div class="imgwrap">
-                    <img class="whywe" src="img/why5.png" alt="pointer">
+                    <img class="whywe" src="{{asset('public/img/why5.png')}}" alt="pointer">
                 </div>
                 <div class="textwrap">
                     <p class="part-text">
@@ -248,15 +248,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="img/coment1.png" alt="" class="comment-photo">
+                                            <img src="{{asset('public/img/coment1.png')}}" alt="" class="comment-photo">
                                             <p class="comment-name">Тараненко Наталія</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Йога - спосіб відпочити для людини ХХІ століття.
@@ -272,15 +272,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="img/coment2.png" alt="" class="comment-photo">
+                                            <img src="{{asset('public/img/coment2.png')}}" alt="" class="comment-photo">
                                             <p class="comment-name">Терещенко Вікторія</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Курс медитації неперевершений! Я в захваті від колективу,
@@ -297,15 +297,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="img/coment3.png" alt="" class="comment-photo">
+                                            <img src="{{asset('public/img/coment3.png')}}" alt="" class="comment-photo">
                                             <p class="comment-name">Кропив’янський Володимир</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Дуже сподобалося, що можна обрати сладові курсу самостійно, вибрав медитацію
@@ -321,15 +321,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="img/coment4.png" alt="" class="comment-photo">
+                                            <img src="{{asset('public/img/coment4.png')}}" alt="" class="comment-photo">
                                             <p class="comment-name">Стефаник Катерина</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Курс по здоровому харчуванню просто відмінний. Я пошкодувала, що не взяла відразу
@@ -343,15 +343,15 @@
                                 <div class="comment">
                                     <div class="comment-row">
                                         <div class="photo-name">
-                                            <img src="img/coment5.png" alt="" class="comment-photo">
+                                            <img src="{{asset('public/img/coment5.png')}}" alt="" class="comment-photo">
                                             <p class="comment-name">Рибак Всеволод</p>
                                         </div>
                                         <div class="stars">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
-                                            <img src="img/star.png" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
+                                            <img src="{{asset('public/img/star.png')}}" alt="" class="star">
                                         </div>
                                     </div>
                                     <p class="text">Без вагань обрав комплексний курс із йоги, медитації та правильного харчування.
