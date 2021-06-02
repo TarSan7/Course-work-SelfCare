@@ -53,3 +53,4 @@ Route::post('/minus{id}', 'App\Http\Controllers\CardController@minus')->name('mi
 Route::post('/plus{id}', 'App\Http\Controllers\CardController@plus')->name('plus');
 Route::post('/delete{id}', 'App\Http\Controllers\CardController@delete')->name('delete');
 
+Route::get('/confirmation{id}', [MainController::class, 'confirmationPage'])->name('confirmation');

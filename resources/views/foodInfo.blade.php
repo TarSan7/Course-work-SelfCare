@@ -12,7 +12,7 @@
     <div class="fuckingClass">
         <h1 class="header-gradient">{{ $recipieIteam->recipe->title }}</h1>
         <div class=" main-content-text reverse mt-5">
-            <img src="{{asset('public/img/Big\{\{$recipieIteam->recipe->img\}\}')}}" alt="food" class="foodImg">
+            <img src="{{asset('public/img/Big'.($recipieIteam->recipe->img).'')}}" alt="food" class="foodImg">
             <div class="recepiText">
                 <p class="boldText">Інгрідієнти</p>
                 <ul class="headerText">

@@ -16,7 +16,6 @@ class UserController extends Controller
         $reg->year = $req->input('year');
         $reg->text = $req->input('text');
         $reg->save();
-        echo("<script type='text/javascript'> var answer = prompt('yeeee'); </script>");
         return redirect()->route('main')->with('success', 'Thank you for comment!');
     }
 

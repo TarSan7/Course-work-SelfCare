@@ -86,7 +86,6 @@ class OrderController extends Controller
         session()->put('eat', 0);
         session()->put('constructor', 0);
         session()->put('totalQuantity', 0);
-        return redirect()->route('cardIndex')->with('success', "Thank you!");
-        
+        return redirect()->route('confirmation', [$order->id]);
     }
 }

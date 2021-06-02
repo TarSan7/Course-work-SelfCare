@@ -38,7 +38,7 @@ color: #000000;
     margin:6% auto 0;
     background-color:  #FFFFFF;
     width: 96%;
-    padding: 5% 10% 13.5%;
+    padding: 5% 10% 15%;
 }
 
 .offer h1{
@@ -404,7 +404,7 @@ button:hover{
 
     .offer{
         margin-top: 30%;
-        padding: 5% 5% 25%;
+        padding: 5% 5% 8%;
     }
 
     button{
@@ -451,10 +451,9 @@ button:hover{
 }
 
 @media screen and (width: 768px){
+    
     .offer{
-        width: 100%;
-        padding-bottom: 34%;
-        margin-top: 37%;
+        padding-bottom: 32%;
     }
 
     .details1{
@@ -636,6 +635,10 @@ button:hover{
 }
 
 @media screen and (width: 992px){
+
+     .offer{
+        margin-top: 25.5%;
+    }
    
     .details1{
         margin: 0 -10% 0 -51%;

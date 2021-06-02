@@ -20,18 +20,27 @@
     <header class="main-header">
         <div class="container">
             <div class="row head-row-first">
-                <div class="logo col-3">
-                    <img class="logo" src="{{asset('public/img/logo.svg') }}" alt="logo: SelfCare">
+                <div class="logo col-2">
+                    <a href="{{ route('main') }}"><img class="logo" src="{{asset('public/img/logo.svg') }}" alt="logo: SelfCare"></a>
+
                 </div>
-                <div class="col-lg-5 col-4"></div>
-                <div class="phone-basket col-4">
-                    <img class="phone" src="{{asset('public/img/phone.svg')}}" alt="phone">
+                <div class="col-8 menu-ne-burger">
+                    <a class="scroll" href="/">Про нас</a>
+                    <a class="scroll" href="{{ route('yoga') }}">Йога</a>
+                    <a class="scroll" href="{{ route('meditation') }}">Медитації</a>
+                    <a class="scroll" href="{{ route('foodContainer') }}">Здорове харчування</a>
+                    <a class="scroll" href="courses">Курси саморозвитку</a>
+                </div>
+                <div class="col-6 for-min">
+                </div>
+                <div class="phone-basket col-3 col-lg-2">
+                    <a href="tel:555-555-5555"><img class="phone" src="{{asset('public/img/phone.svg')}}" alt="phone"></a>
                     <a href="/card"> <img class="basket" src="{{asset('public/img/basket.svg')}}" alt="basket"></a>
-                    <img class="phone1" src="{{asset('public/img/phone1.svg')}}" alt="phone">
-                        <a href="/card"><img class="basket1" src="{{asset('public/img/basket1.svg')}}" alt="basket"></a>
-                        <span class="badge">{{ Session::has('totalQuatity') ? Session::get('totalQuatity'): ''}}</span>
+                    <a href="tel:555-555-5555"><img class="phone1" src="{{asset('public/img/phone1.svg')}}" alt="phone"></a>
+                    <a href="/card"><img class="basket1" src="{{asset('public/img/basket1.svg')}}" alt="basket"></a>
+                    <span class="badge">{{ Session::has('totalQuatity') ? Session::get('totalQuatity'): ''}}</span>
                 </div>
-                <div class=" col-1 col-lg-11 burger">
+                <div class="col-1 burger">
                     <input id="menu-toggle" type="checkbox" />
                     <label class="menu-btn" for="menu-toggle">
                         <span></span>
@@ -62,7 +71,7 @@
                     <div class="container">
                         <div class="row footer-row">
                             <div class="col-sm-3 col-12 logot-ftr">
-                                <img class="logo-ftr" src="{{asset('public/img/logo-ftr.svg')}}" alt="logo: SelfCare">
+                                <a href="{{ route('main') }}"><img class="logo-ftr" src="{{asset('public/img/logo-ftr.svg')}}" alt="logo: SelfCare"></a>
                             </div>
                             <div class="col-sm-6 col-12 netw">
                                 <img onclick="document.location=''" src="{{asset('public/img/instagram.svg')}}" alt="facebook" class="instagram">

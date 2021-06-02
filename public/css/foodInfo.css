@@ -1,14 +1,12 @@
 .main-header {
     background: none;
 }
-
 .redlineBlock {
-    background-color: #E58776;
-    position: absolute;
-    height: 13%;
-    position: top;
-    top: 0;
-    width: 100%;
+    background-color: #E58776;position: absolute;
+    width: 100vw;
+    height: 130px;
+    top:0;
+    left:0;
     z-index: -1;
 }
 
@@ -153,15 +151,24 @@ ul {
 }
 
 @media screen and (max-width: 1100px) {
-
+/* 
 .redlineBlock {
     height: 15%;
-}
+} */
 }
 
 @media screen and (max-width: 992px) {
 
+    
     .menu-btn > span, .menu-btn > span::before, .menu-btn > span::after {
+        background-color:white;
+    }
+    
+    #menu-toggle:checked ~ .menu-btn > span::after {
+        background-color: white;
+    }
+    
+    #menu-toggle:checked ~ .menu-btn > span::before {
         background-color: white;
     }
 
